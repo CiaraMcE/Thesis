@@ -1,0 +1,229 @@
+% ----------------------------------------------------
+% ----------------------------------------------------
+% M A S T E R   D O C U M E N T
+% ----------------------------------------------------
+% ----------------------------------------------------
+
+% Thesis format (only right pages)
+%\documentclass[11pt,oneside]{book}
+% \onehalfspacing
+
+\documentclass[11pt,oneside]{book}
+% \singlespacing
+% To compile what you need to compile
+%\includeonly{introduction}
+%\includeonly{Chapter 1}
+%\includeonly{listofmargs,introduction,overview, Chapter 1}
+
+% --------------------
+% P A C K A G E S
+% --------------------
+% Font
+%\usepackage{times}
+\usepackage{palatino}
+% British english, whatever effect that might have
+\usepackage[british]{babel}
+% AMS mathematial environments and symbols
+\usepackage{amsmath}
+\usepackage{amssymb}
+% A4 papersize
+\usepackage{vmargin}
+% Nice headings etc
+\usepackage{fancyhdr}
+% To have a figure a and b
+\usepackage{subfigure}
+% Well, that's generally needed
+\usepackage{graphicx}
+% For URLs in references
+\usepackage{url}
+% For backreferences in the bibliography
+\usepackage{backref}
+% For proper presentation of references
+\usepackage{natbib}
+% To comment out large chunks
+\usepackage{comment}
+% To have draft on the first page
+\usepackage[first]{draftcopy}
+% For the spacing used below
+\usepackage{setspace}
+% For nicer captions
+\usepackage[bf,footnotesize]{caption}
+% For legal symbols (\textregistered etc.)
+\usepackage{textcomp}
+% --------------------------------------
+% M Y   C O M M A N D S / M A C R O S
+% --------------------------------------
+\newcommand{\mean}[1]{\left< 1 \right>}
+\newcommand{\Pcoupling}{\nu}
+\newcommand{\PCoupling}{\nu}
+\newcommand{\PcouplingH}{\eta}
+\newcommand{\Pdefect}{\delta}
+\newcommand{\Pnotfire}{\epsilon}
+\newcommand{\Dist}{\ell_{i}}
+\newcommand{\RP}{\tau}
+\newcommand{\SA}{\Lambda}
+\newcommand{\avg}[1]{\langle #1 \rangle}
+\newcommand{\DenCrit}{\bar{n_{c}}(\Pdefect,\Pcoupling,\RP)}
+\newcommand{\WaitingNumber}{k}
+\newcommand{\WaitingTime}{K}
+\newcommand{\ExcitedOcc}{n_e}
+\newcommand{\RestOcc}{n_r}
+\newcommand{\RefOcc}{n_{\tau}}
+\newcommand{\pv}{p_{\nu}}
+\newcommand{\unit}{cell }
+\newcommand{\units}{cells }
+\newcommand{\lm}{\ell_{\text{min}}}
+\newcommand{\PDefect}{\delta}
+\newcommand{\Dysf}{\epsilon}
+\newcommand{\dxprime}{\Delta x^{\prime}} 
+\newcommand{\dtprime}{\Delta t^{\prime}}
+\newcommand{\dyprime}{\Delta y^{\prime}}
+\newcommand{\RPprime}{\tau^{\prime}}
+\newcommand{\CVxprime}{{\theta_{x}}^{\prime}}
+% ------------------
+% S E T T I N G S 
+% ------------------
+\setcounter{secnumdepth}{4}
+%\setlength{\captionmargin}{30pt}
+\pagestyle{fancy}
+% A4 Papersize
+% Fancyheader will probably fiddle with that, so we set
+% papersize and margins here.
+% Papersize
+% ---> set this
+\setpapersize{A4}
+% Default
+%\setmarginsrb{35mm}{20mm}{25mm}{15mm}{12pt}{11mm}{0pt}{11mm}
+% messaured
+% right:
+% 25.4 mm
+% left
+% 35.3 mm
+%
+% University of London:
+%\setmarginsrb{40mm}{20mm}{20mm}{20mm}{12pt}{11mm}{0pt}{11mm}
+% ... but that really looks terrible! and the 40mm are not exactly 40 ...
+% ---> set this
+%\setmarginsrb{42mm}{23mm}{25mm}{20mm}{12pt}{11mm}{0pt}{11mm}
+% Better, but more pages
+% Hope to relief problems in the page headers
+%\sloppy
+% distance between footnote line and main text block
+\addtolength{\skip\footins}{4mm}
+\fancypagestyle{plain}{\fancyhf{}%
+\fancyfoot[C]{\large\bfseries\oldstylenums{\thepage}}%
+\renewcommand{\headrulewidth}{0pt}%
+}
+\fancyhf{}
+\fancyhead[LO]{\bfseries\rightmark}
+%\fancyhead[RE]{\bfseries\leftmark}
+%\fancyhead[LE,RO]{\large\bfseries\oldstylenums{\thepage}}
+% derived from apsrmp plus titles of articles
+\bibliographystyle{thesis}
+
+% -----------------------------
+% B E G I N   D O C U M E N T
+% -----------------------------
+\begin{document}
+% Reset pagenumbering and start from the first page
+\pagenumbering{arabic}
+% Only for title page and dedication
+\singlespacing
+% --------------------
+% T I T L E   P A G E
+% --------------------
+\thispagestyle{plain}
+\begin{center}
+\vspace{-3.5cm}
+\rule{\linewidth}{1mm}
+\vspace{3mm}\\
+%{\bf\sc\LARGE Studies in } \\
+%{\fontshape{sc}\fontsize{24}{24}\selectfont Studies in } \\
+%\vspace{5mm}
+%{\bf\sc\Huge Self-Organised Criticality}
+{\fontshape{sc}\fontsize{28}{28}\selectfont Optical Computed Tomography}
+\vspace{5mm}\\
+\rule{\linewidth}{1mm}
+\vspace{3mm}\\
+{\Large by \\
+\vspace{0.2cm}
+Ciara McErlean}
+
+{\Large \vspace{2.5cm}
+Submitted in part fulfilment of the requirements for   \\
+\vspace{0.2cm}
+the degree of Doctor of Philosophy in Physics  \\
+\vspace{0.2cm}
+of the Institute of Cancer Research
+\vspace{4.2cm}\\
+%\textsf{ 
+Institute  of Cancer Research\\
+CRUK Cancer Imaging Centre\\
+15 Cotswold Road\\
+Sutton Surrey SM2 5NG\\
+United Kingdom
+%}
+\\
+\vspace{1.5cm}
+October 2016}
+\end{center}
+%\clearplaindoublepage
+
+ ----------------------
+% D E D I C A T I O N
+% ----------------------
+\vspace*{4cm}
+\thispagestyle{plain}
+\begin{center}{DEDICATION}\end{center}
+
+% ---------------
+% S P A C I N G
+% ---------------
+% I don't wanted to have the spacing interfere with the title page or
+% dedication, so I turn it on here
+%\doublespacing
+% REQUIRED
+%%% *** proper thesis spacing
+%%% ---> set this
+\onehalfspacing
+%%%\singlespacing
+
+
+
+% ------------------------------------------------------------------------------
+% C O N T E N T   B O O K K E E P I N G:   T A B L E S ,   L I S T S   E T C .
+% ------------------------------------------------------------------------------
+%\clearplaindoublepage
+\pagestyle{fancy}
+%\include{abstract}
+
+
+
+%\clearplaindoublepage
+% Change name of table of contents
+% Just _one_ line too long
+%\renewcommand{\contentsname}{Table of Contents}
+%\tableofcontents
+\markboth{\MakeUppercase{Table of Contents}}{\MakeUppercase{Table of Contents}}
+\chapter*{Table of Contents}
+\vspace*{-0.7cm}
+\makeatletter
+\@starttoc{toc}
+\makeatother
+
+
+% From now on, everything is recto/verso
+%\clearplaindoublepage
+%\include{acknowledgements}
+
+
+
+%\clearplaindoublepage
+
+\include{Chapter1}
+%\include{Chapter2}
+%\include{Chapter3}
+%\include{Chapter4}
+%\include{Chapter5} 
+
+\end{document}

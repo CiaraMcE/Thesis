@@ -1,0 +1,20 @@
+\select@language {british}
+\contentsline {chapter}{\numberline {1}Introduction}{4}
+\contentsline {section}{\numberline {1.1}Introduction}{4}
+\contentsline {section}{\numberline {1.2}Theory}{5}
+\contentsline {subsection}{\numberline {1.2.1}Radon Space}{5}
+\contentsline {subsection}{\numberline {1.2.2}Filtered Back-projection}{6}
+\contentsline {subsection}{\numberline {1.2.3}Optics}{7}
+\contentsline {section}{\numberline {1.3}Dosimetry}{8}
+\contentsline {subsection}{\numberline {1.3.1}Laser scanning configuration}{8}
+\contentsline {subsection}{\numberline {1.3.2}Pixelated detector based systems}{10}
+\contentsline {paragraph}{\numberline {1.3.2.0.1}Parallel beam configuration:}{10}
+\contentsline {paragraph}{\numberline {1.3.2.0.2}Cone beam configuration:}{11}
+\contentsline {section}{\numberline {1.4}Tissue imaging}{11}
+\contentsline {subsection}{\numberline {1.4.1}Optical Projection Tomography}{11}
+\contentsline {subsection}{\numberline {1.4.2}Fluorescent/emission OptCT}{12}
+\contentsline {section}{\numberline {1.5}Optical Clearing}{14}
+\contentsline {section}{\numberline {1.6}Optical Staining}{15}
+\contentsline {subsection}{\numberline {1.6.1}Staining for Cancer Markers}{15}
+\contentsline {subsection}{\numberline {1.6.2}Optical Staining in OptCT}{17}
+\contentsline {section}{\numberline {1.7}Conclusions}{18}

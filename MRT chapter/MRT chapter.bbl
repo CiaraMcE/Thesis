@@ -1,0 +1,271 @@
+\begin{thebibliography}{}
+
+\bibitem[Abdul~Rahman et~al., 2011]{abdulrahmansophisticated2011}
+Abdul~Rahman, A., Elke, B., Brochard, T., Adamovics, J., Clowes, S., Bradley,
+  D., and Doran, S.~J. (2011).
+\newblock Sophisticated test objects for the quality assurance of optical
+  computed tomography scanners.
+\newblock {\em Physics in medicine and biology}, 56(14):4177--4199.
+
+\bibitem[Akselrod et~al., 2006]{akselrod2006novel}
+Akselrod, G., Akselrod, M., Benton, E., and Yasuda, N. (2006).
+\newblock A novel al$_2$o$_3$ fluorescent nuclear track detector for heavy
+  charged particles and neutrons.
+\newblock {\em Nuclear Instruments and Methods in Physics Research Section B:
+  Beam Interactions with Materials and Atoms}, 247(2):295--306.
+
+\bibitem[Annabell et~al., 2012]{annabellevaluating2012}
+Annabell, N., Yagi, N., Umetani, K., Wong, C., and Geso, M. (2012).
+\newblock Evaluating the peak-to-valley dose ratio of synchrotron microbeams
+  using {PRESAGE} fluorescence.
+\newblock {\em Journal of synchrotron radiation}, 19(Pt 3):332--339.
+
+\bibitem[Appleby et~al., 1987]{appleby1987imaging}
+Appleby, A., Christman, E., and Leghrouz, A. (1987).
+\newblock Imaging of spatial radiation dose distribution in agarose gels using
+  magnetic resonance.
+\newblock {\em Medical physics}, 14(3):382--384.
+
+\bibitem[Baldock et~al., 2010]{baldock2010polymer}
+Baldock, C., De~Deene, Y., Doran, S., Ibbott, G., Jirasek, A., Lepage, M.,
+  McAuley, K., Oldham, M., and Schreiner, L. (2010).
+\newblock Polymer gel dosimetry.
+\newblock {\em Physics in medicine and biology}, 55(5):R1.
+
+\bibitem[Bayreder et~al., 2008]{bayrederthe2008}
+Bayreder, C., Schon, R., Wieland, M., Georg, D., Moser, E., and Berg, A.
+  (2008).
+\newblock The spatial resolution in dosimetry with normoxic polymer-gels
+  investigated with the dose modulation transfer approach.
+\newblock {\em Medical physics}, 35(5):1756--1769.
+
+\bibitem[Berg et~al., 2004]{berghigh2004}
+Berg, A., Pernkopf, M., Waldhausl, C., Schmidt, W., and Moser, E. (2004).
+\newblock High resolution {MR} based polymer dosimetry versus film
+  densitometry: a systematic study based on the modulation transfer function
+  approach.
+\newblock {\em Physics in medicine and biology}, 49(17):4087--4108.
+
+\bibitem[Br{\"a}uer-Krisch et~al., 2003]{brauer2003mosfet}
+Br{\"a}uer-Krisch, E., Bravin, A., Lerch, M., Rosenfeld, A., Stepanek, J.,
+  Di~Michiel, M., and Laissue, J. (2003).
+\newblock Mosfet dosimetry for microbeam radiation therapy at the european
+  synchrotron radiation facility.
+\newblock {\em Medical physics}, 30(4):583--589.
+
+\bibitem[Br{\"a}uer-Krisch et~al., 2013]{brauer2013preclinical}
+Br{\"a}uer-Krisch, E., Nemoz, C., Brochard, T., Berruyer, G., Renier, M.,
+  Pouyatos, B., and Serduc, R. (2013).
+\newblock The preclinical set-up at the id17 biomedical beamline to achieve
+  high local dose deposition using interlaced microbeams.
+\newblock In {\em Journal of Physics: Conference Series}, volume 425, page
+  022001. IOP Publishing.
+
+\bibitem[Br{\"a}uer-Krisch et~al., 2009]{brauer2009new}
+Br{\"a}uer-Krisch, E., Requardt, H., Brochard, T., Berruyer, G., Renier, M.,
+  Laissue, J., and Bravin, A. (2009).
+\newblock New technology enables high precision multislit collimators for
+  microbeam radiation therapy.
+\newblock {\em Review of Scientific Instruments}, 80(7):074301.
+
+\bibitem[Br\"{a}uer-Krisch et~al., 2010]{brauer-krischpotential2010}
+Br\"{a}uer-Krisch, E., Rosenfeld, A.~B., Lerch, M.~L., Petasecca, M., Akselrod,
+  M., Sykora, J., Bartz, J., Ptaszkiewicz, M., Olko, P., and Berg, A. (2010).
+\newblock Potential high resolution dosimeters for {MRT}.
+
+\bibitem[Chen et~al., 2012]{chenincorporation2012}
+Chen, L., James, M., Taylor, H.~B., Bugeon, L., Lamb, J.~R., Dallman, M.~J.,
+  and French, P.~M. (2012).
+\newblock Incorporation of an experimentally determined {MTF} for spatial
+  frequency filtering and deconvolution during optical projection tomography
+  reconstruction.
+\newblock {\em Optics express}, 20(7):7323--7337.
+
+\bibitem[Clift et~al., 2010]{clift2010toward}
+Clift, C., Thomas, A., Adamovics, J., Chang, Z., Das, I., and Oldham, M.
+  (2010).
+\newblock Toward acquiring comprehensive radiosurgery field commissioning data
+  using the presage{\textregistered}/optical-ct 3d dosimetry system.
+\newblock {\em Physics in medicine and biology}, 55(5):1279.
+
+\bibitem[Crosbie et~al., 2008]{crosbie2008method}
+Crosbie, J., Svalbe, I., Midgley, S., Yagi, N., Rogers, P., and Lewis, R.
+  (2008).
+\newblock A method of dosimetry for synchrotron microbeam radiation therapy
+  using radiochromic films of different sensitivity.
+\newblock {\em Physics in medicine and biology}, 53(23):6861.
+
+\bibitem[Crosbie et~al., 2010]{crosbie2010tumor}
+Crosbie, J.~C., Anderson, R.~L., Rothkamm, K., Restall, C.~M., Cann, L.,
+  Ruwanpura, S., Meachem, S., Yagi, N., Svalbe, I., Lewis, R.~A., et~al.
+  (2010).
+\newblock Tumor cell response to synchrotron microbeam radiation therapy
+  differs markedly from cells in normal tissues.
+\newblock {\em International Journal of Radiation Oncology* Biology* Physics},
+  77(3):886--894.
+
+\bibitem[Doran et~al., 2013a]{doranultra-high2013}
+Doran, S., Rahman, A., and E, B. (2013a).
+\newblock Ultra-high resolution optical {CT} dosimetry for the visualisation of
+  synchrotron microbeam therapy doses.
+
+\bibitem[Doran, 2009]{doranthe2009}
+Doran, S.~J. (2009).
+\newblock The history and principles of optical computed tomography for
+  scanning {3-D} radiation dosimeters: 2008 update.
+\newblock {\em Journal of Physics: Conference Series}, 164.
+
+\bibitem[Doran et~al., 2013b]{doranestablishing2013}
+Doran, S.~J., Abdul~Rahman, A., Brauer-Krisch, E., Brochard, T., Adamovics, J.,
+  Nisbet, A., and Bradley, D. (2013b).
+\newblock Establishing the suitability of quantitative optical {CT} microscopy
+  of {PRESAGE{\textregistered}} radiochromic dosimeters for the verification of
+  synchrotron microbeam therapy.
+\newblock {\em Physics in medicine and biology}, 58(18):6279--6297.
+
+\bibitem[Doran et~al., 2010]{doranan2010}
+Doran, S.~J., Brochard, T., Adamovics, J., Krstajic, N., and Elke, B. (2010).
+\newblock An investigation of the potential of optical computed tomography for
+  imaging of synchrotron-generated x-rays at high spatial resolution.
+\newblock {\em Physics in medicine and biology}, 55(5):1531--1547.
+
+\bibitem[E et~al., 2010]{brauer-krischeffects2010}
+E, B., Serduc, R., Siegbahn, E., Le~Duc, G., Prezado, Y., Bravin, A.,
+  Blattmann, H., and Laissue, J. (2010).
+\newblock Effects of pulsed, spatially fractionated, microscopic synchrotron
+  x-ray beams on normal and tumoral brain tissue.
+\newblock {\em Mutation research}, 704(1-3):160--166.
+
+\bibitem[Fauver et~al., 2005]{fauverthree-dimensional2005}
+Fauver, M., Seibel, E., Rahn, J., Meyer, M., Patten, F., Neumann, T., and
+  Nelson, A. (2005).
+\newblock Three-dimensional imaging of single isolated cell nuclei using
+  optical projection tomography.
+\newblock {\em Optics express}, 13(11):4210--4223.
+
+\bibitem[Gore et~al., 1996]{goreradiation1996}
+Gore, J., Ranade, M., Marya{\~n}ski, M., and Schulz, R. (1996).
+\newblock Radiation dose distributions in three dimensions from tomographic
+  optical density scanning of polymer gels: I. development of an optical
+  scanner.
+\newblock {\em Physics in medicine and biology}, 41(12):2695--2704.
+
+\bibitem[Heilemann et~al., 2015]{heilemann2015pushing}
+Heilemann, G., Georg, D., and Berg, A. (2015).
+\newblock Pushing the boundaries of spatial resolution in dosimetry using
+  polymer gels and radiochromic films.
+\newblock In {\em Journal of Physics: Conference Series}, volume 573, page
+  012034. IOP Publishing.
+
+\bibitem[Inou{\'e} and Spring, 1997]{inoue1997video}
+Inou{\'e}, S. and Spring, K.~R. (1997).
+\newblock Video microscopy: The fundamentals (the language of science).
+
+\bibitem[Krstajic and Doran, 2007]{krstajiccharacterization2007}
+Krstajic, N. and Doran, S.~J. (2007).
+\newblock Characterization of a parallel-beam {CCD} {optical-CT} apparatus for
+  {3D} radiation dosimetry.
+\newblock {\em Physics in medicine and biology}, 52(13):3693--3713.
+
+\bibitem[Laissue et~al., 2001]{laissue2001weanling}
+Laissue, J.~A., Blattmann, H., Di~Michiel, M., Slatkin, D.~N., Lyubimova, N.,
+  Guzman, R., Zimmermann, W., Birrer, S., Bley, T., Kircher, P., et~al. (2001).
+\newblock Weanling piglet cerebellum: a surrogate for tolerance to mrt
+  (microbeam radiation therapy) in pediatric neuro-oncology.
+\newblock In {\em International Symposium on Optical Science and Technology},
+  pages 65--73. International Society for Optics and Photonics.
+
+\bibitem[Lerch et~al., 2011]{lerch2011dosimetry}
+Lerch, M., Petasecca, M., Cullen, A., Hamad, A., Requardt, H.,
+  Br{\"a}uer-Krisch, E., Bravin, A., Perevertaylo, V., and Rosenfeld, A.~B.
+  (2011).
+\newblock Dosimetry of intensive synchrotron microbeams.
+\newblock {\em Radiation Measurements}, 46(12):1560--1565.
+
+\bibitem[Mart{\'i}nez-Rovira et~al., 2012]{martinez-roviradevelopment2012}
+Mart{\'i}nez-Rovira, I., Sempau, J., and Prezado, Y. (2012).
+\newblock Development and commissioning of a monte carlo photon beam model for
+  the forthcoming clinical trials in microbeam radiation therapy.
+\newblock {\em Medical physics}, 39(1):119--131.
+
+\bibitem[Maryanski et~al., 1993]{maryanski1993nmr}
+Maryanski, M.~J., Gore, J.~C., Kennan, R.~P., and Schulz, R.~J. (1993).
+\newblock Nmr relaxation enhancement in gels polymerized and cross-linked by
+  ionizing radiation: a new approach to 3d dosimetry by mri.
+\newblock {\em Magnetic resonance imaging}, 11(2):253--258.
+
+\bibitem[Pouyatos et~al., 2013]{pouyatos2013synchrotron}
+Pouyatos, B., Serduc, R., Chipaux, M., Chabrol, T., Br{\"a}uer-Krisch, E.,
+  Nemoz, C., Mathieu, H., David, O., Renaud, L., Prezado, Y., et~al. (2013).
+\newblock Synchrotron x-ray interlaced microbeams suppress paroxysmal
+  oscillations in neuronal networks initiating generalized epilepsy.
+\newblock {\em Neurobiology of disease}, 51:152--160.
+
+\bibitem[Ptaszkiewicz et~al., 2008]{ptaszkiewicz2008tld}
+Ptaszkiewicz, M., Braurer-Kirsch, E., Klosowski, M., Czopyk, L., and Olko, P.
+  (2008).
+\newblock Tld dosimetry for microbeam radiation therapy at the european
+  synchrotron radiation facility.
+\newblock {\em Radiation Measurements}, 43(2):990--993.
+
+\bibitem[Requardt et~al., 2005]{requardt2005new}
+Requardt, H., Corde, S., Siegbahn, E., LeDuc, G., Brochard, T., Blattmann, H.,
+  Laissue, J., Bravin, A., et~al. (2005).
+\newblock New irradiation geometry for microbeam radiation therapy.
+\newblock {\em Physics in medicine and biology}, 50(13):3103.
+
+\bibitem[Schreiner, 2004]{schreiner2004review}
+Schreiner, L. (2004).
+\newblock Review of fricke gel dosimeters.
+\newblock In {\em Journal of Physics: Conference Series}, volume~3, page~9. IOP
+  Publishing.
+
+\bibitem[Serduc et~al., 2009]{serduc2009first}
+Serduc, R., Br{\"a}uer-Krisch, E., Bouchet, A., Renaud, L., Brochard, T.,
+  Bravin, A., Laissue, J.~A., and Le~Duc, G. (2009).
+\newblock First trial of spatial and temporal fractionations of the delivered
+  dose using synchrotron microbeam radiation therapy.
+\newblock {\em Synchrotron Radiation}, 16(4):587--590.
+
+\bibitem[Serduc et~al., 2010]{serduchigh-precision2010}
+Serduc, R., Elke, B., Siegbahn, E.~A., Bouchet, A., Pouyatos, B., Carron, R.,
+  Pannetier, N., Renaud, L., Berruyer, G., Nemoz, C., Brochard, T., R{\'e}my,
+  C., Barbier, E.~L., Bravin, A., Le~Duc, G., Depaulis, A., Est{\`e}ve, F., and
+  Laissue, J.~A. (2010).
+\newblock High-precision radiosurgical dose delivery by interlaced microbeam
+  arrays of high-flux low-energy synchrotron x-rays.
+\newblock {\em {PloS} one}, 5(2):e9028.
+
+\bibitem[Siegbahn et~al., 2009]{siegbahnmosfet2009}
+Siegbahn, E., E, B., Bravin, A., Nettelbeck, H., Lerch, M., and Rosenfeld, A.
+  (2009).
+\newblock {MOSFET} dosimetry with high spatial resolution in intense
+  synchrotron-generated x-ray microbeams.
+\newblock {\em Medical physics}, 36(4):1128--1137.
+
+\bibitem[Skyt et~al., 2011]{skyttemperature2011}
+Skyt, P.~S., Balling, P., Petersen, J. B.~B., Yates, E.~S., and Muren, L.~P.
+  (2011).
+\newblock Temperature dependence of the dose response for a solid-state
+  radiochromic dosimeter during irradiation and storage.
+\newblock {\em Medical physics}, 38(5):2806--2811.
+
+\bibitem[Skyt et~al., 2012]{skyttemperature2012}
+Skyt, P.~S., Wahlstedt, I., Muren, L.~P., Petersen, J. B.~B., and Balling, P.
+  (2012).
+\newblock Temperature and temporal dependence of the optical response for a
+  radiochromic dosimeter.
+\newblock {\em Medical physics}, 39(12):7232--7236.
+
+\bibitem[Thomas et~al., 2011]{thomasa2011}
+Thomas, A., Pierquet, M., Jordan, K., and Oldham, M. (2011).
+\newblock A method to correct for spectral artifacts in {optical-CT} dosimetry.
+\newblock {\em Physics in medicine and biology}, 56(11):3403--3416.
+
+\bibitem[Varosi and Landsman, 1993]{varosi1993idl}
+Varosi, F. and Landsman, W. (1993).
+\newblock An idl based image deconvolution software package.
+\newblock In {\em Astronomical Data Analysis Software and Systems II},
+  volume~52, page 515.
+
+\end{thebibliography}

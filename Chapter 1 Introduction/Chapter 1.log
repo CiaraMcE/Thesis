@@ -1,0 +1,454 @@
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  16 JUL 2015 16:34
+entering extended mode
+**Chapter*1.tex
+("C:\Users\cmcerlean\Documents\Thesis\Chapter 1 Introduction\Chapter 1.tex"
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.st
+y
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
+\subfigtopskip=\skip43
+\subfigcapskip=\skip44
+\subfigcaptopadj=\dimen105
+\subfigbottomskip=\skip45
+\subfigcapmargin=\dimen106
+\subfiglabelskip=\skip46
+\c@subfigure=\count88
+\c@lofdepth=\count89
+\c@subtable=\count90
+\c@lotdepth=\count91
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+
+(C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cf
+g)
+\subfig@top=\skip47
+\subfig@bottom=\skip48
+) (C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\latex\units\nicefrac.sty
+Package: nicefrac 1998/08/04 v0.9b Nice fractions
+\L@UnitsRaiseDisplaystyle=\skip49
+\L@UnitsRaiseTextstyle=\skip50
+\L@UnitsRaiseScriptstyle=\skip51
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\ifthen.sty"
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count92
+\Gm@cntv=\count93
+\c@Gm@tempcnt=\count94
+\Gm@bindingoffset=\dimen107
+\Gm@wd@mp=\dimen108
+\Gm@odd@mp=\dimen109
+\Gm@even@mp=\dimen110
+\Gm@layoutwidth=\dimen111
+\Gm@layoutheight=\dimen112
+\Gm@layouthoffset=\dimen113
+\Gm@layoutvoffset=\dimen114
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip52
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks16
+\ex@=\dimen115
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen116
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count95
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count96
+\leftroot@=\count97
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count98
+\DOTSCASE@=\count99
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box26
+\strutbox@=\box27
+\big@size=\dimen117
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
+\dotsspace@=\muskip10
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks17
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks18
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks19
+\multlinegap=\skip53
+\multlinetaggap=\skip54
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen124
+\extrarowheight=\dimen125
+\NC@list=\toks21
+\extratabsurround=\skip55
+\backup@length=\skip56
+)
+(C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\latex\cite\cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 373.
+Package: cite 2010/09/10  v 5.3
+)
+(C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+Package: caption 2013/01/06 v3.3 Customizing captions (AR)
+
+(C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty
+Package: caption3 2013/01/06 v1.5 caption3 kernel (AR)
+\captionmargin=\dimen126
+\captionmargin@=\dimen127
+\captionwidth=\dimen128
+\caption@tempdima=\dimen129
+\caption@indent=\dimen130
+\caption@parindent=\dimen131
+\caption@hangindent=\dimen132
+)
+\c@ContinuedFloat=\count107
+Package caption Info: subfigure package is loaded.
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count108
+\float@exts=\toks22
+\float@box=\box28
+\@float@everytoks=\toks23
+\@floatcapt=\box29
+)
+("C:\Users\cmcerlean\Documents\Thesis\Chapter 1 Introduction\Chapter 1.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+(C:\Users\cmcerlean\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count109
+\scratchdimen=\dimen133
+\scratchbox=\box30
+\nofMPsegments=\count110
+\nofMParguments=\count111
+\everyMPshowfont=\toks24
+\MPscratchCnt=\count112
+\MPscratchDim=\dimen134
+\MPnumerator=\count113
+\makeMPintoPDFobject=\count114
+\everyMPtoPDFconversion=\toks25
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(95.39737pt, 556.47656pt, 143.09605pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=556.47656pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-13.87262pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Try loading font information for U+msa on input line 27.
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 27.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+) [1
+
+{C:/Users/cmcerlean/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
+<Russ_projection.jpg, id=20, 350.81062pt x 225.09094pt>
+File: Russ_projection.jpg Graphic file (type jpg)
+
+<use Russ_projection.jpg>
+Package pdftex.def Info: Russ_projection.jpg used on input line 92.
+(pdftex.def)             Requested size: 210.48799pt x 135.05559pt.
+
+<Doran_2008_sinogram.jpg, id=21, 608.2725pt x 420.82219pt>
+File: Doran_2008_sinogram.jpg Graphic file (type jpg)
+
+<use Doran_2008_sinogram.jpg>
+Package pdftex.def Info: Doran_2008_sinogram.jpg used on input line 102.
+(pdftex.def)             Requested size: 430.00462pt x 297.49516pt.
+ [3 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Russ_projection
+.jpg>] [4 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Doran_200
+8_sinogram.jpg>] [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 209.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <8> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 209.
+ [7] [8]
+<Gore_setup.pdf, id=42, 483.8075pt x 323.2075pt>
+File: Gore_setup.pdf Graphic file (type pdf)
+ <use Gore_setup.pdf>
+Package pdftex.def Info: Gore_setup.pdf used on input line 228.
+(pdftex.def)             Requested size: 290.28674pt x 193.926pt.
+ [9 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Gore_setup.pdf>
+]
+<Tarte_1997_ccdsetup.jpg, id=56, 744.53156pt x 312.41719pt>
+File: Tarte_1997_ccdsetup.jpg Graphic file (type jpg)
+
+<use Tarte_1997_ccdsetup.jpg>
+Package pdftex.def Info: Tarte_1997_ccdsetup.jpg used on input line 251.
+(pdftex.def)             Requested size: 297.80734pt x 124.96465pt.
+ [10 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Tarte_1997_ccd
+setup.jpg>]
+<Doran_2001_ccdsetup.jpg, id=60, 541.27219pt x 328.22626pt>
+File: Doran_2001_ccdsetup.jpg Graphic file (type jpg)
+
+<use Doran_2001_ccdsetup.jpg>
+Package pdftex.def Info: Doran_2001_ccdsetup.jpg used on input line 272.
+(pdftex.def)             Requested size: 297.70062pt x 180.525pt.
+ [11 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Doran_2001_ccd
+setup.jpg>]
+<Wolodzko_1999_conesetup.jpg, id=64, 571.38469pt x 636.87938pt>
+File: Wolodzko_1999_conesetup.jpg Graphic file (type jpg)
+
+<use Wolodzko_1999_conesetup.jpg>
+Package pdftex.def Info: Wolodzko_1999_conesetup.jpg used on input line 295.
+(pdftex.def)             Requested size: 171.41672pt x 191.06528pt.
+ [12 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Wolodzko_1999_
+conesetup.jpg>] [13]
+<Sharpe_2002_setup.jpg, id=72, 309.40594pt x 277.035pt>
+File: Sharpe_2002_setup.jpg Graphic file (type jpg)
+
+<use Sharpe_2002_setup.jpg>
+Package pdftex.def Info: Sharpe_2002_setup.jpg used on input line 354.
+(pdftex.def)             Requested size: 215.0023pt x 192.5155pt.
+
+<Sharpe_2003_mouse.jpg, id=73, 361.35pt x 476.53032pt>
+File: Sharpe_2003_mouse.jpg Graphic file (type jpg)
+
+<use Sharpe_2003_mouse.jpg>
+Package pdftex.def Info: Sharpe_2003_mouse.jpg used on input line 356.
+(pdftex.def)             Requested size: 180.67456pt x 238.26457pt.
+ [14 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Sharpe_2002_se
+tup.jpg> <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Sharpe_200
+3_mouse.jpg>]
+<Fauver_2005_setup.jpg, id=78, 377.15906pt x 277.035pt>
+File: Fauver_2005_setup.jpg Graphic file (type jpg)
+
+<use Fauver_2005_setup.jpg>
+Package pdftex.def Info: Fauver_2005_setup.jpg used on input line 370.
+(pdftex.def)             Requested size: 301.72766pt x 221.6283pt.
+ [15 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Fauver_2005_se
+tup.jpg>]
+<Oldham_2007ku_eCTsetup.jpg, id=82, 284.56313pt x 144.54pt>
+File: Oldham_2007ku_eCTsetup.jpg Graphic file (type jpg)
+
+<use Oldham_2007ku_eCTsetup.jpg>
+Package pdftex.def Info: Oldham_2007ku_eCTsetup.jpg used on input line 400.
+(pdftex.def)             Requested size: 284.56242pt x 144.53963pt.
+ [16] [17 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Oldham_20
+07ku_eCTsetup.jpg>] [18] [19]
+<Padhani_2010_hallmarks.jpg, id=96, 632.3625pt x 442.65375pt>
+File: Padhani_2010_hallmarks.jpg Graphic file (type jpg)
+
+<use Padhani_2010_hallmarks.jpg>
+Package pdftex.def Info: Padhani_2010_hallmarks.jpg used on input line 507.
+(pdftex.def)             Requested size: 379.42043pt x 265.59428pt.
+ [20] [21 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Padhani_2
+010_hallmarks.jpg>] [22]
+<Oldham_2006_tumourstaining.jpg, id=106, 393.72093pt x 137.7647pt>
+File: Oldham_2006_tumourstaining.jpg Graphic file (type jpg)
+
+<use Oldham_2006_tumourstaining.jpg>
+Package pdftex.def Info: Oldham_2006_tumourstaining.jpg used on input line 548.
+
+(pdftex.def)             Requested size: 393.71997pt x 137.76434pt.
+ [23 <C:/Users/cmcerlean/Documents/Thesis/Chapter 1 Introduction/Oldham_2006_tu
+mourstaining.jpg>]
+("C:\Users\cmcerlean\Documents\Thesis\Chapter 1 Introduction\Chapter 1.bbl"
+[24] [25] [26] [27] [28] [29]
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+Missing character: There is no â in font cmr12!
+Missing character: There is no € in font cmr12!
+Missing character: There is no “ in font cmr12!
+ [30]
+Missing character: There is no Î in font cmr12!
+Missing character: There is no ² in font cmr12!
+) [31]
+("C:\Users\cmcerlean\Documents\Thesis\Chapter 1 Introduction\Chapter 1.aux") ) 
+Here is how much of TeX's memory you used:
+ 4124 strings out of 494045
+ 60000 string characters out of 3148375
+ 122102 words of memory out of 3000000
+ 7358 multiletter control sequences out of 15000+200000
+ 10795 words of font info for 41 fonts, out of 3000000 for 9000
+ 715 hyphenation exceptions out of 8191
+ 36i,10n,38p,1208b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+<
+C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files
+/MiKTeX 2.9/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
+e1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts
+/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.
+pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pr
+ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fi
+les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on "Chapter 1.pdf" (31 pages, 909860 bytes).
+PDF statistics:
+ 180 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+
