@@ -20,7 +20,11 @@
 
 %\usepackage{titlesec}
 %\titleformat{\chapter}[block]{\Large\bfseries}{\thechapter}{0.5ex}{\vspace{1ex}}{\vspace{-0.5ex}}
-
+\usepackage{siunitx}    %for greek units
+\usepackage{mathptmx}    %Times Roman font
+\setkomafont{disposition}{\bfseries} %Change all font incl headings to roman
+\setcounter{secnumdepth}{3}   % Number \subsubsection
+\setcounter{tocdepth}{3}      % Include \subsubsection in ToC
 
 \pagestyle{scrheadings}
 \ihead{}
@@ -33,17 +37,17 @@
 \author{Ciara McErlean}
 \date{\today}
 %\titlehead{A Thesis submitted for the degree of Doctor of Philosophy}
-%\publishers{School of Something\\University of Somewhere}
+%\publishers{School of Something\\e}
 
 
-\includeonly{methods}
+\includeonly{intro, methods, mrt}
 
 \begin{document}
 	\rmfamily
-	%\maketitle
-    %\tableofcontents
-	%\listoffigures
-	%\listoftables
+	\maketitle
+    \tableofcontents
+	\listoffigures
+	\listoftables
 	
 %	\chapter{Acknowledgements}
 %	I would like to thank my supervisor, Professor Someone. This

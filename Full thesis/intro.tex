@@ -7,15 +7,15 @@
 	%This is the goal for combined MRI and OptCT imaging of tumours. 
 	Traditionally, tumour imaging has been approached from opposite ends of the resolution spectrum. Histology, using optical microscopy,  images tumour cells with resolution in the micron range. However, lengthy preparation steps and sectioning means that 3-D information is lost and \textit{in vivo} imaging is not possible. Magnetic resonance imaging (MRI) gives excellent visualisations of whole tumours \textit{in vivo} with contrast sensitive to malignant and benign tumours. However, the best resolution is of the order 100 microns so single cells cannot be resolved. This means the biological origin of contrast in MR images is not fully understood. 
 	
-	Optical computed tomography (OptCT) is a relatively new imaging modality which has the potential to bridge the gap between histology and MRI. It is the optical equivalent of x-ray CT, using mathematical reconstruction to produce cross-sectional images from projections through a sample. Samples can include embryos, tumours and entire excised tumours. The important advantage of using OptCT is its ability to give high resolution, high contrast images using optical dyes and stains common in histology. This distinguishes it from other modalities such as $\mu$-MRI.
+	Optical computed tomography (CT) is a relatively new imaging modality which has the potential to bridge the gap between histology and MRI. It is the optical equivalent of x-ray CT, using mathematical reconstruction to produce cross-sectional images from projections through a sample. Samples can include embryos, tumours and entire excised tumours. The important advantage of using optical CT is its ability to give high resolution, high contrast images using optical dyes and stains common in histology. This distinguishes it from other modalities such as $\mu$-MRI.
 	
-	Forms of OptCT have been reported as far back as 1983 \cite{ray1983laser,kawata1990laser} %but only one projection image was used.  
+	Forms of optical CT have been reported as far back as 1983 \cite{ray1983laser,kawata1990laser} %but only one projection image was used.  
 	and a system similar to modern approaches was reported by Brown in 1992 \cite{Brown:1992}. 
 	%A key point is the use of matching fluid  and sample clarification.
 	%ncleared a sample of stained cochlea in 3BB:5MS. 600nm illumination to reduce scatter. 1.92mm radius imaged with resolution 16$\mu$m. But Brown is not referenced by either Gore or Sharpe. :(
-	However, the field of OptCT has only significantly  progressed recently, starting in 1996 with Gore in the area of dosimetry  \cite{Gore:1999tg}. Later Sharpe developed a similar system in the area of biomedical microscopy, calling his technique optical projection tomography (OPT)  \cite{Sharpe:2002jp}. The availability of reasonably priced cameras and more computer power has meant that OptCT systems can be built relatively cheaply. This is yet another advantage over MRI scanners which are very expensive and time consuming to use.
+	However, the field of optical CT has only significantly  progressed recently, starting in 1996 with Gore in the area of dosimetry  \cite{Gore:1999tg}. Later Sharpe developed a similar system in the area of biomedical microscopy, calling his technique optical projection tomography (OPT)  \cite{Sharpe:2002jp}. The availability of reasonably priced cameras and more computer power has meant that optical CT systems can be built relatively cheaply. This is yet another advantage over MRI scanners which are very expensive and time consuming to use.
 	
-	Having the ability to co-register MR images with high resolution, unsectioned optical images  is of significant  interest in cancer research. Understanding the origin of MR contrast on a cellular level would give MR the potential to be used more effectively in screening potential new drugs. OptCT also offers the chance to monitor tumour development in 3-D with fluorescent markers. These developments could be of significant help  in cancer imaging and treatment.
+	Having the ability to co-register MR images with high resolution, unsectioned optical images  is of significant  interest in cancer research. Understanding the origin of MR contrast on a cellular level would give MR the potential to be used more effectively in screening potential new drugs. optical CT also offers the chance to monitor tumour development in 3-D with fluorescent markers. These developments could be of significant help  in cancer imaging and treatment.
 	
 	
 	%From meeting 13/12/12: mention problem with MR, fundamental limit on resolution, diffusion limit on protons. SNR. See papers by Paul Glover, Nottingham (micropscopy + limits of MR)
@@ -134,7 +134,7 @@
 	\end{align}
 	where $Q_{\phi}(x')$ is the projection filtered by in the frequency domain by multiplication with $k$. This is known as the ideal inverse filter, giving high weighting to high frequency components but low weighting to low frequencies. Other commonly used filters include the Hann,  Hamming, Butterworth, Shepp-Logan and Ram-Lak. Choice of filter can affect the quality of reconstructions \cite{russ2002image}.
 	
-	In order to use  FBP to reconstruct projections from OptCT two requirements of the Fourier Slice theorem must be satisfied. The first is that projections should be the result of rays travelling parallel to the optical axis through the sample. The second is that all points along a projection should contribute with the same weighting to the signal \cite{Wang:2007}. OptCT design considerations focus on satisfying these requirements to obtain high quality images.
+	In order to use  FBP to reconstruct projections from optical CT two requirements of the Fourier Slice theorem must be satisfied. The first is that projections should be the result of rays travelling parallel to the optical axis through the sample. The second is that all points along a projection should contribute with the same weighting to the signal \cite{Wang:2007}. Optical CT design considerations focus on satisfying these requirements to obtain high quality images.
 	
 	
 	
@@ -144,7 +144,7 @@
 	
 	\subsection{Optics}
 	
-	The quality of reconstructed images is primarily limited by the quality of projection data. There are many aspects of FBP which can degrade image quality, such as the choice of filter and the number of projection angles acquired. However, there is also a fundamental limit on resolution achievable due to the optics of the system. Unlike x-ray CT, many OptCT systems use focusing optics to acquire projections. The type of optics used in OptCT has developed over the years, different set-ups are discussed in Sections~\ref{sec:dos} and~\ref{sec:tissue}. 
+	The quality of reconstructed images is primarily limited by the quality of projection data. There are many aspects of FBP which can degrade image quality, such as the choice of filter and the number of projection angles acquired. However, there is also a fundamental limit on resolution achievable due to the optics of the system. Unlike x-ray CT, many optical CT systems use focusing optics to acquire projections. The type of optics used in optical CT has developed over the years, different set-ups are discussed in Sections~\ref{sec:dos} and~\ref{sec:tissue}. 
 	
 	The Rayleigh criterion states that two objects are just resolved when the centre of one Airy disk falls on the first minimum of the other object's pattern \cite{hecht2002optics}.
 	Lateral resolution is given by this distance,
@@ -189,17 +189,17 @@
 	\label{sec:dos}
 	\subsection{Laser scanning configuration}
 	
-	One of the first reported optical computed tomography (OptCT) systems was developed in the area of gel dosimetry. Accurate 3-D measurement of dose delivery in radiotherapy is extremely important in developing safe treatment plans. Specialist polymer gels, such as BANG\textsuperscript{\textregistered} \cite{Maryanski:1996}, respond to irradiation with changes in optical attenuation and scattering properties.  This makes them ideal for measuring 3-D dose distributions. Previously the irradiated gels were measured by MRI and x-ray CT. However, these are expensive imaging modalities. In 1996, Gore and Maryanski published the first system for scanning polymer gels using optical computed tomography \cite{Gore:1999tg}. In later comparisons, OptCT has been found to be more precise, have reduced noise and smoother line profiles than MRI for gel dosimetry \cite{Oldham:2001gs}, although these results have since been disputed. 
+	One of the first reported optical CT systems was developed in the area of gel dosimetry. Accurate 3-D measurement of dose delivery in radiotherapy is extremely important in developing safe treatment plans. Specialist polymer gels, such as BANG\textsuperscript{\textregistered} \cite{Maryanski:1996}, respond to irradiation with changes in optical attenuation and scattering properties.  This makes them ideal for measuring 3-D dose distributions. Previously the irradiated gels were measured by MRI and x-ray CT. However, these are expensive imaging modalities. In 1996, Gore and Maryanski published the first system for scanning polymer gels using optical computed tomography \cite{Gore:1999tg}. In later comparisons, OptCT has been found to be more precise, have reduced noise and smoother line profiles than MRI for gel dosimetry \cite{Oldham:2001gs}, although these results have since been disputed. 
 	
 	Gore's system consisted of a  He-Ne laser source and large area photo-diode detector (see Figure~\ref{fig:gore_setup}). Translate-rotate acquisition was employed whereby the sample was rotated and projection data  acquired  by the photo-diode over $360^{\circ}$. Small angular steps between projections are necessary for high quality reconstruction \cite{russ2002image}. For a 2-D reconstruction, projections are acquired across a slice of the sample by translating the laser beam with mirrors. For 3-D information, the sample height  had to be manually adjusted and many 2-D slices acquired. This meant scanning an entire sample took  hours and lengthy scanning times are the chief disadvantage of the laser scanning method.  Accuracy of 5\% is reported and spatial resolution of 2mm, which is roughly the same as the laser beam width \cite{Gore:1999tg}.
 	
-	The idea of OptCT scanning in dosimetry was quickly developed by other groups. Laser scanning set-ups were published in 1996 by Tarte \textit{et al.},  \cite{Tarte:2006} and Kelly \textit{et al.}  \cite{Kelly:1998}.
+	The idea of optical CT scanning in dosimetry was quickly developed by other groups. Laser scanning set-ups were published in 1996 by \cite{Tarte:2006} and  \cite{Kelly:1998}.
 	%\textit{Can't find the paper 1996 Kelly references in 1998 Med Phys says it doesn't exist.}
-	Kelly \textit{et al.} claim to have independently developed their scanner which is very similar to that of Gore's. In in both Kelly's and Tarte's  scanners, the sample is rotated and translated using a stage whereas Gore used mirrors to translate the laser spot across the sample. 
+	Kelly \textit{et al.} claim to have independently developed their scanner which is very similar to that of Gore's. In  both Kelly's and Tarte's  scanners, the sample is rotated and translated using a stage whereas Gore used mirrors to translate the laser spot across the sample. 
 	
 	
-	A commercial laser scanning OptCT system, OCTOPUS\texttrademark by MGS Research, Inc.
-	(Madison, CT),  is an extension of Gore's original set-up with the addition of a platform capable of vertical movement for automated slice-selection \cite{Islam:2003gs}. For a number of years it was the only commercially available system and has been characterised by several groups \cite{Xu:2003cc, Islam:2003gs, Xu:2004iv, Sakhalkar:2009hb}. According to Oldham, characterisation of OptCT systems should include checks on geometric distortion, accuracy of reconstruction, scatter artefacts and reflection and refraction artefacts \cite{Oldham:2004cj}.
+	A commercial laser scanning optical CT system, OCTOPUS\texttrademark by MGS Research, Inc.
+	(Madison, CT),  is an extension of Gore's original set-up with the addition of a platform capable of vertical movement for automated slice-selection \cite{Islam:2003gs}. For a number of years it was the only commercially available system and has been characterised by several groups \cite{Xu:2003cc, Islam:2003gs, Xu:2004iv, Sakhalkar:2009hb}. According to Oldham, characterisation of optical CT systems should include checks on geometric distortion, accuracy of reconstruction, scatter artefacts and reflection and refraction artefacts \cite{Oldham:2004cj}.
 	
 	
 	
@@ -209,14 +209,14 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.6]{intro_img/Gore_setup.pdf}
-		\caption{A first generation,  Laser Scanning OptCT system developed by Gore. The sample is rotated and projections recorded at a number of angles. The  mirrors scan the laser beam across the sample but movement in the vertical direction is by manual adjustment only Figure adapted from \cite{Gore:1999tg}. }
+		\caption{A first generation,  Laser Scanning optical CT system developed by Gore. The sample is rotated and projections recorded at a number of angles. The  mirrors scan the laser beam across the sample but movement in the vertical direction is by manual adjustment only Figure adapted from \cite{Gore:1999tg}. }
 		\label{fig:gore_setup}
 	\end{figure}
 	
 	
 	Laser scanning systems include a  beam splitter before the sample to create a reference beam. Dividing projections by the reference intensity  corrects for laser beam intensity fluctuations \cite{Gore:1999tg}.
 	
-	Refraction and reflection at container walls are significant concerns for all configurations of  OptCT. Generally, laser beams are incident on the gel container at a small angle, such as $5^{\circ}$, to avoid large reflection at the interface. The gel container is usually placed in a tank containing `matching fluid' with a refractive index close to that of the gel. This prevents significant refraction as the light passes into the gel. Doran found through ray tracing simulations that the refractive index of the walls of the matching tank and  gel container are not important compared to the gel and matching fluid. The optimum difference in refractive index between these two was interestingly found to be non-zero \cite{Doran:2001ee}. 
+	Refraction and reflection at container walls are significant concerns for all configurations of  optical CT. Generally, laser beams are incident on the gel container at a small angle, such as $5^{\circ}$, to avoid large reflection at the interface. The gel container is usually placed in a tank containing `matching fluid' with a refractive index close to that of the gel. This prevents significant refraction as the light passes into the gel. Doran found through ray tracing simulations that the refractive index of the walls of the matching tank and  gel container are not important compared to the gel and matching fluid. The optimum difference in refractive index between these two was interestingly found to be non-zero \cite{Doran:2001ee}. 
 	
 	To maximise the dynamic range of the system, coloured dye is commonly added to the matching fluid so the optical density of the matching fluid and gel are very similar \cite{Krstajic:2006kna}. 
 	
@@ -225,23 +225,23 @@
 	
 	\subsection{Pixelated detector based systems}
 	
-	The first CCD based OptCT system was developed in a separate field in 1996, investigating self-organising chemical structures \cite{Winfree:1996}.
-	In 1997 it was adopted for dosimetry by Tarte \textit{et al.} who employed an incoherent white light source and CCD camera detection \cite{Tarte:2007}. The advantage  of a pixelated detector based system  is that an entire 2-D projection can be imaged at once, potentially increasing the scanning speed by several  orders of magnitude depending on the data through-put rate. Tarte's system used a divergent light source and diffusing screen to measure optical density in a thin gel section (see Figure~\ref{fig:tarte_ccd_setup}). 
+	The first CCD based optical CT system was developed in a separate field in 1996, investigating self-organising chemical structures \cite{Winfree:1996}.
+	In 1997 it was adopted for dosimetry by \cite{Tarte:2007} who employed an incoherent white light source and CCD camera detection. The advantage  of a pixelated detector based system  is that an entire 2-D projection can be imaged at once, potentially increasing the scanning speed by several  orders of magnitude depending on the data through-put rate. Tarte's system used a divergent light source and diffusing screen to measure optical density in a thin gel section (see Figure~\ref{fig:tarte_ccd_setup}). 
 	%For a very thin sample this adequate however, more sophisticated optics are required for bigger samples. \textbf{Does tarte reconstruct at all?}
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.4]{intro_img/Tarte_1997_ccdsetup.jpg}
-		\caption{Diagram of the first CCD-based  OptCT system for dosimetry, developed by Tarte \textit{et al.} It uses  divergent illumination from a white light source and CCD camera detection to record an entire 2D projection at once.   Figure adapted from \cite{Tarte:2007}. }
+		\caption{Diagram of the first CCD-based  optical CT system for dosimetry, developed by Tarte \textit{et al.} It uses  divergent illumination from a white light source and CCD camera detection to record an entire 2D projection at once.   Figure adapted from \cite{Tarte:2007}. }
 		\label{fig:tarte_ccd_setup}
 	\end{figure}
 	
 	
-	The accuracy of Tarte's system  was checked by comparison with the standard measure of dosimetry, the parallel plate ionisation chamber. It was found to be on average within 3\% of the value from the ionisation chamber \cite{Tarte:2007}. A comparison between Tarte's laser scanning and CCD set-ups found that they had similar spatial resolutions. The CCD method had improved speed of acquistion but suffered from consistently worse SNR as a photodiode detector can collect many more photons per `pixel' than a CCD camera \cite{Tarte:2007}.
+	The accuracy of Tarte's system  was checked by comparison with the standard measure of dosimetry, the parallel plate ionisation chamber. It was found to be on average within 3\% of the value from the ionisation chamber \cite{Tarte:2007}. A comparison between Tarte's laser scanning and CCD set-ups found that they had similar spatial resolutions. The CCD method had improved speed of acquisition but suffered from consistently worse SNR as a photodiode detector can collect many more photons per `pixel' than a CCD camera \cite{Tarte:2007}.
 	
 	%The laser system 'pixel' is defined by the region illuminated by the laser spot while the photodiode has a much larger area than the spot, so it collects even photons which have diverged from a straight line. 
 	
-	Advances in technology have meant that  high quality detectors are much more affordable. A cheaper alternative to very high quality CCD cameras is the CMOS (Complementary Metal-Oxide-Semiconductor) detector which has the potential for higher resolution and dynamic range \cite{Doran:2008kh}. Using a higher quality detector would improve many OptCT systems  in terms of scanning speed and reduced artefacts \cite{Tarte:2007, Doran:2001ee}.
+	Advances in technology have meant that  high quality detectors are much more affordable. A cheaper alternative to very high quality CCD cameras is the CMOS (Complementary Metal-Oxide-Semiconductor) detector which has the potential for higher resolution and dynamic range \cite{Doran:2008kh}. Using a higher quality detector would improve many optical CT systems  in terms of scanning speed and reduced artefacts \cite{Tarte:2007, Doran:2001ee}.
 	
 	
 	\paragraph{Parallel beam configuration:} One method to reconstruct 3-D images with a CCD or CMOS detector is to create a broad parallel beam. This allows the use of parallel reconstruction algorithms, very similar to those used for x-ray CT. Each 2-D projection image recorded corresponds to one row for every slice in the 3-D reconstruction sinogram \cite{Doran:2008kh}.
@@ -253,7 +253,7 @@
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.55]{intro_img/Doran_2001_ccdsetup.jpg}
-		\caption{Diagram of a parallel beam  OptCT system, developed by Doran \textit{et al.} Telecentric optics create a parallel beam.  Figure adapted from \cite{Doran:2001ee}. }
+		\caption{Diagram of a parallel beam  optical CT system, developed by Doran \textit{et al.} Telecentric optics create a parallel beam.  Figure adapted from \cite{Doran:2001ee}. }
 		\label{fig:doran_ccd_setup}
 	\end{figure}
 	
@@ -270,13 +270,13 @@
 	
 	
 	\paragraph{Cone beam configuration:}
-	Wolodzko \textit{et al.} published the first cone beam OptCT system with CCD detection for gel dosimetry \cite{Wolodzko:1999}. One advantage of this configuration is the optics for producing a cone beam are much simpler than those for producing accurate parallel beams \cite{Doran:2008kh}. However, the reconstruction is computationally more complex \cite{hsieh2003computed}. A commercial cone-beam system, Vista\texttrademark by Modus Medical Devices Inc. (London, ON, Canada),  is available and reviewed recently by Olding \textit{et al.} \cite{Olding:2011eta}.
+	Wolodzko \textit{et al.} published the first cone beam optical CT system with CCD detection for gel dosimetry \cite{Wolodzko:1999}. One advantage of this configuration is the optics for producing a cone beam are much simpler than those for producing accurate parallel beams \cite{Doran:2008kh}. However, the reconstruction is computationally more complex \cite{hsieh2003computed}. A commercial cone-beam system, Vista\texttrademark by Modus Medical Devices Inc. (London, ON, Canada),  is available and reviewed recently by Olding \textit{et al.} \cite{Olding:2011eta}.
 	
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=0.3]{intro_img/Wolodzko_1999_conesetup.jpg}
-		\caption{The first cone-beam CCD configuration for OptCT. The optics are much simpler than for parallel beam systems. Figure adapted from \cite{Wolodzko:1999}.}
+		\caption{The first cone-beam CCD configuration for optical CT. The optics are much simpler than for parallel beam systems. Figure adapted from \cite{Wolodzko:1999}.}
 	\end{figure}
 	
 	
@@ -315,13 +315,13 @@
 	\label{sec:tissue}
 	\subsection{Optical Projection Tomography}
 	\label{subsec:OPT}
-	Another version of OptCT was  developed by Sharpe \textit{et al.} in the area of 3-D microscopy for gene expression studies \cite{Sharpe:2002jp}. Although this set-up in 2002 came after Gore's they are apparently independent and Sharpe named his technique Optical Projection Tomography (OPT).
+	Another version of optical CT was  developed by Sharpe \textit{et al.} in the area of 3-D microscopy for gene expression studies \cite{Sharpe:2002jp}. Although this set-up in 2002 came after Gore's they are apparently independent and Sharpe named his technique Optical Projection Tomography (OPT).
 	
 	Although other techniques for 3-D microscopy are well established, OPT offers some unique advantages. 
-	Confocal microscopy offers high resolution images up to a depth of about 1mm \cite{Webb:1996}. However, it is limited to fluorescent signals meaning many optical stains used routinely in histology would not work. Optical coherence tomography (OCT), which is commonly used in ophthalmology, is capable of micrometer-scale resolution but with  depth limited to 2-3mm in tissue \cite{huang1993optical}. Both of these techniques generate tomographic images through sectioning whereas OPT is a projection based tomography technique \cite{Sharpe:2003cm}. Avoiding sectioning is important in producing truly representative 3-D images \cite{Oldham:2007ku}. Another advantage of  OPT is its ability to  image much larger specimen, with depth of around 3cm being reported \cite{Oldham:2007ku}. This superior imaging depth not just due to clarification of the samples, discussed in Section~\ref{sec:clearing}. OCT and confocal systems have also been tested with clearing agents and the reported gains in depth vary between 20-150\% in OCT \cite{Tuchin:2002} which is significantly shallower than OptCT.
+	Confocal microscopy offers high resolution images up to a depth of about 1 mm \cite{Webb:1996}. However, it is limited to fluorescent signals meaning many optical stains used routinely in histology would not work. Optical coherence tomography (OCT), which is commonly used in ophthalmology, is capable of micrometer-scale resolution but with  depth limited to 2--3 mm in tissue \cite{huang1993optical}. Both of these techniques generate tomographic images through sectioning whereas OPT is a projection based tomography technique \cite{Sharpe:2003cm}. Avoiding sectioning is important in producing truly representative 3-D images \cite{Oldham:2007ku}. Another advantage of  OPT is its ability to  image much larger specimen, with depth of around 3 cm being reported \cite{Oldham:2007ku}. This superior imaging depth not just due to clarification of the samples, discussed in Section~\ref{sec:clearing}. OCT and confocal systems have also been tested with clearing agents and the reported gains in depth vary between 20-150\% in OCT \cite{Tuchin:2002} which is significantly shallower than optical CT.
 	
 	
-	Sharpe's original system uses a microscope to focus projections of a mouse embryo onto a camera imaging chip.  Sharpe reports some impressive images as reproduced in Figure~\ref{fig:SharpeOPT}. Use of the microscope gives resolution of about 5-10$\mu$m meaning single-cell membranes, around 10$\mu$m thick, can be seen\cite{Sharpe:2002jp}. However, the high NA  optics which give high resolution limit the DOF. Sharpe decided to circumvent the problem of a low DOF by positioning the rotational axis so only half the specimen was in focus at once. $360^{\circ}$ of projections were taken to collect in-focus data from all points. The problem with only having half of specimen in focus at once is that unfocused light is superimposed upon the focused data and included in the reconstruction. This leads to blurring, which is worse with distance from the axis of rotation. Walls \textit{et al.} proposed a method of correcting this defocusing effect using a frequency-distance filter, as described by Xia for SPECT \cite{xia1995fourier,Walls:2007jl}. The filter narrows the PSF to in-focus data allowing in-focus, high resolution images to be reconstructed \cite{Walls:2007jl}.
+	Sharpe's original system uses a microscope to focus projections of a mouse embryo onto a camera imaging chip.  Sharpe reports some impressive images as reproduced in Figure~\ref{fig:SharpeOPT}. Use of the microscope gives resolution of about 5--10 $\mu$m meaning single-cell membranes, around 10 $\mu$m thick, can be seen\cite{Sharpe:2002jp}. However, the high NA  optics which give high resolution limit the DOF. Sharpe decided to circumvent the problem of a low DOF by positioning the rotational axis so only half the specimen was in focus at once. $360^{\circ}$ of projections were taken to collect in-focus data from all points. The problem with only having half of specimen in focus at once is that unfocused light is superimposed upon the focused data and included in the reconstruction. This leads to blurring, which is worse with distance from the axis of rotation. Walls \textit{et al.} proposed a method of correcting this defocusing effect using a frequency-distance filter, as described by Xia for SPECT \cite{xia1995fourier,Walls:2007jl}. The filter narrows the PSF to in-focus data allowing in-focus, high resolution images to be reconstructed \cite{Walls:2007jl}.
 	
 	
 	
@@ -359,7 +359,7 @@
 	Wang and Wang have reported an improvement to OPT giving higher axial and lateral resolution, even for slices far from the optical axis \cite{Wang:2006hy, Wang:2007}. As previously mentioned, to obtain high quality reconstructions the projections should closely approximate a line integral of parallel rays passing through the sample \cite{Wang:2006hy}. This is not exactly the case for  OPT, which limits the best resolution possible. Wang proposed placing an iris at the back focus of the objective lens. This reduces divergence of the projection rays from paths parallel to the optical axis giving qualitatively better resolution.
 	
 	
-	\subsection{Fluorescent/emission  OptCT}
+	\subsection{Fluorescent/emission  optical CT}
 	\label{subsec:eOPT}
 	
 	Sharpe was the first to identify the possibility of using OPT to image fluorescent stains in biological specimen \cite{Sharpe:2002jp}. There are a wide range of fluorescent optical stains in use in histology making this development particularly useful for biological imaging. It also offers the advantage of being able to record multiple signals independently unlike  transmission OPT (tOPT) \cite{Sharpe:2002jp}. 
@@ -374,7 +374,7 @@
 	
 	
 	
-	Oldham \textit{et al.} have adapted Sharpe's eOPT set-up by changing from microscope to bench-top apparatus, similar to their dosimetry OptCT system \cite{Oldham:2006, Oldham:2007ku}. Microscope based systems suffer from poor DOF as the optics are designed to image flat samples.  Oldham's custom made set-up employs telecentric optics giving much improved DOF capable of imaging samples up to 3cm \cite{Oldham:2007ku}. However, better DOF is achieved at the cost of worse lateral spatial resolution and this trade-off must be considered with respect to the information required from the specimen \cite{Krstajic:2006kna}.   A comparison of microscope and telecentric systems would be very interesting in future work.
+	Oldham \textit{et al.} have adapted Sharpe's eOPT set-up by changing from microscope to bench-top apparatus, similar to their dosimetry optical CT system \cite{Oldham:2006, Oldham:2007ku}. Microscope based systems suffer from poor DOF as the optics are designed to image flat samples.  Oldham's custom made set-up employs telecentric optics giving much improved DOF capable of imaging samples up to 3 cm \cite{Oldham:2007ku}. However, better DOF is achieved at the cost of worse lateral spatial resolution and this trade-off must be considered with respect to the information required from the specimen \cite{Krstajic:2006kna}.   A comparison of microscope and telecentric systems would be very interesting in future work.
 	
 	
 	
@@ -405,9 +405,9 @@
 	
 	
 	%\subparagraph{Live eOPT:} 
-	There have been attempts at performing OPT  on live specimen \cite{Boot:2008dt, Vinegoni:2008ix, Colas:2009}. The chief difficulties in this are developing a method limiting scatter and refraction  whilst also keeping the specimen alive. Boot and Sharpe reported their efforts for \textit{in vitro} time-lapse quantitative eOPT  imaging through tracking GFP expression of a growing mouse embryo limb bud, about 1mm in size \cite{Boot:2008dt}. 
+	There have been attempts at performing OPT  on live specimen \cite{Boot:2008dt, Vinegoni:2008ix, Colas:2009}. The chief difficulties in this are developing a method limiting scatter and refraction  whilst also keeping the specimen alive. Boot and Sharpe reported their efforts for \textit{in vitro} time-lapse quantitative eOPT  imaging through tracking GFP expression of a growing mouse embryo limb bud, about 1 mm in size \cite{Boot:2008dt}. 
 	Live OPT has also been used in molecular imaging tracking a changing 3-D gene expression pattern \cite{Colas:2009}.
-	Vinegoni \textit{et al.} reported \textit{in vivo} imaging of Drosophila melanogaster pupae without clearing or matching fluids \cite{Vinegoni:2008ix}.  As there is no clearing involved and a mathematical model is required for reconstruction Vinegoni called this `mesoscopic' imaging rather than OPT/OptCT.  
+	Vinegoni \textit{et al.} reported \textit{in vivo} imaging of Drosophila melanogaster pupae without clearing or matching fluids \cite{Vinegoni:2008ix}.  As there is no clearing involved and a mathematical model is required for reconstruction Vinegoni called this `mesoscopic' imaging rather than OPT/optical CT.  
 	%A polarisation analyser in front of the CCD rejects highly scattered photons which lose their polarisation state. 
 	Although gathering some biologically interesting information, the resolution was much worse than conventional OPT limiting the applications for this technique. It would be fantastic to be able to monitor tumour development in 3-D. Doing live imaging means the mouse could be its own control, instead of sacrificing many mice at different stages of tumour development. This may not be possible due to limited size and resolution.
 	
@@ -426,14 +426,14 @@
 	\label{sec:clearing}
 	
 	%Need for refractive index matching to ensure parallel beam assumption is true enough that we can emloy traditional reconstruction techniques. 
-	Optical clearing or clarification is a very important step in OptCT imaging of tissue. Tissue is made up of many components of different refractive indices, meaning there are many optical boundaries for scatter and refraction to occur at. This is the reason why visible wavelength light does not penetrate very far in tissue. To use the parallel ray assumption  in CT reconstruction, refraction and scatter at cell membrane interfaces within the sample must be minimised \cite{Oldham:2006}.  This is accomplished with clearing.
+	Optical clearing or clarification is a very important step in optical CT imaging of tissue. Tissue is made up of many components of different refractive indices, meaning there are many optical boundaries for scatter and refraction to occur at. This is the reason why visible wavelength light does not penetrate very far in tissue. To use the parallel ray assumption  in CT reconstruction, refraction and scatter at cell membrane interfaces within the sample must be minimised \cite{Oldham:2006}.  This is accomplished with clearing.
 	
 	During clearing, intracellular  fluid is replaced with a optical clearing agent (OCA). There are many choices of OCA but they should all have refractive indices matching the tissue to be imaged and be hyperosmolar (i.e. have a very high solute concentration) \cite{tuchin2007tissue}.
 	
 	
 	A very popular technique for clearing is the Optical Immersion technique. The sample is set in agarose gel for stability. The gel contains pores which allows diffusion of the OCA. The most commonly used OCAs for OPT are benzyl-alcohol-benzyl-benzoate (BABB, refractive index 1.55) or methyl salicylate (MetSal, refractive index 1.53). These are both aromatic organic solvents and are not miscible in water. Therefore a graded sequence of ethanol and OCA solutions is required to replace the intracellular water with the OCA \cite{Oldham:2006}. 
 	
-	Some OCAs, including glycerol and dimethyl sulfoxide (DMSO), can be directly applied to the tissue without need for graded ethanol solutions. However, they have been shown to be less effective than BABB and MetSal and cannot penetrate deeper than 1cm \cite{Oldham:2006}.  Glycerol may be more suitable for \textit{in vivo} or live studies as it is biologically inert however DMSO would not be suitable due to high toxicity \cite{Wen:2009is}.
+	Some OCAs, including glycerol and dimethyl sulfoxide (DMSO), can be directly applied to the tissue without need for graded ethanol solutions. However, they have been shown to be less effective than BABB and MetSal and cannot penetrate deeper than 1 cm \cite{Oldham:2006}.  Glycerol may be more suitable for \textit{in vivo} or live studies as it is biologically inert however DMSO would not be suitable due to high toxicity \cite{Wen:2009is}.
 	
 	%BABB has n=1.56 while water is n=1.33, what is n for tissue? \cite{Walls:2005ja}
 	
@@ -455,7 +455,7 @@
 	\section{Optical Staining}
 	\subsection{Staining for Cancer Markers}
 	
-	The goal of our investigation will be characterising MRI contrast in tumours by comparison with detailed 3-D maps of histological stains given by OptCT. Staining for tumour recognition and characterisation is a well established area for histology and will be briefly reviewed here.  One aspect to be investigated is how these stains work in the presence of OCAs. Unfortunately, Oldham has not found a method of combining immunohistological stains with clearing procedures, making \textit{in vivo} staining the most attractive option at present \cite{Oldham:2008dfa}.
+	The goal of our investigation will be characterising MRI contrast in tumours by comparison with detailed 3-D maps of histological stains given by optical CT. Staining for tumour recognition and characterisation is a well established area for histology and will be briefly reviewed here.  One aspect to be investigated is how these stains work in the presence of OCAs. Unfortunately, Oldham has not found a method of combining immunohistological stains with clearing procedures, making \textit{in vivo} staining the most attractive option at present \cite{Oldham:2008dfa}.
 	
 	
 	
@@ -477,7 +477,7 @@
 	
 	The primary hallmarks of cancer, which are believed to be present in virtually all tumours, are listed in Figure~\ref{fig:padhani} \cite{Hanahan:2000}. How these acquired capabilities are gained differs between individual tumours. However, there are some common pathways that can provide targets for therapy. The hallmarks also give some clues for imaging tumours (see Figure~\ref{fig:padhani}). Certain genes have been found to be very common in the route to gaining these capabilities. For example, inactivation of the p53 tumour suppressor gene is found in more than 50\% of  human tumours, giving the tumour cells the ability to evade apoptosis (programmed cell death). This gene can be tracked via reporter genes, such as HSV1-tk(GFP) which can then be imaged with positron emission tomography (PET) \cite{Doubrovin:2001}.  
 	
-	The area of molecular imaging is relatively new and usually involves the use of a reporter gene and complimentary reporter probe, the accumulation of which gives an indication of gene expression \cite{Blasberg:2003}. Different reporter probes can be imaged with MRI, PET, SPECT and optical techniques. Optical techniques have the advantage of being more cost and time-effective than MRI or nuclear methods. As mentioned before, OptCT has the additional advantage of better depth penetration than other common optical imaging methods such as confocal microscopy.
+	The area of molecular imaging is relatively new and usually involves the use of a reporter gene and complimentary reporter probe, the accumulation of which gives an indication of gene expression \cite{Blasberg:2003}. Different reporter probes can be imaged with MRI, PET, SPECT and optical techniques. Optical techniques have the advantage of being more cost and time-effective than MRI or nuclear methods. As mentioned before, optical CT has the additional advantage of better depth penetration than other common optical imaging methods such as confocal microscopy.
 	
 	%One such common target is the vascular endothelial growth factor (VEGF) which is often overexpressed in tumours and is important for angiogenesis. Blocking VEGF can stop additional blood flow to the tumour and restrict its growth. 
 	
@@ -499,21 +499,21 @@
 	
 	The most common fluorescent marker used is  green fluorescent protein (GFP) and its spectrally shifted variants with emission ranges from 442-645nm \cite{Hoffman:2005}. The GFP gene was first cloned from \textit{Aequorea victoria} jellyfish and has since been humanised giving high expression and signal for use in mammals \cite{Hoffman:2009}. They are popular markers due to their high extinction coefficient and high quantum yield giving very bright and efficient fluorescence. The variants are spectrally different enough to can be used simultaneously, marking different aspects of the biology \cite{Hoffman:2005}. 
 	
-	With the discovery of red and NIR fluorophores, fluorescent optical molecular imaging is becoming  more widespread. These markers avoid the problem of blue-green autofluorescence that GFP experiences and also have slightly deeper penetration due to the therapeutic window in tissue. The first red fluorescent protein (RFP) was cloned from \textit{Discosoma} coral in the late 1990s and has been modified giving DsRed-2, a very bright protein with emission peak at 588nm. Other longer wavelength variants have been developed such as mPlum and mCherry however these are less bright \cite{Hoffman:2009}. A newer, very bright red marker called Katushka looks very promising with high photo-stability. Its excitation and emission wavelengths of 588nm and 635nm respectively are ideal for tissue being lowly absorbed by both tissue and haemoglobin \cite{Shcherbo:2007}.
+	With the discovery of red and NIR fluorophores, fluorescent optical molecular imaging is becoming  more widespread. These markers avoid the problem of blue-green autofluorescence that GFP experiences and also have slightly deeper penetration due to the therapeutic window in tissue. The first red fluorescent protein (RFP) was cloned from \textit{Discosoma} coral in the late 1990s and has been modified giving DsRed-2, a very bright protein with emission peak at 588 nm. Other longer wavelength variants have been developed such as mPlum and mCherry however these are less bright \cite{Hoffman:2009}. A newer, very bright red marker called Katushka looks very promising with high photo-stability. Its excitation and emission wavelengths of 588 nm and 635 nm respectively are ideal for tissue being lowly absorbed by both tissue and haemoglobin \cite{Shcherbo:2007}.
 	
 	
-	Other fluorescent stains which may be interesting include  Doxorubicin, which is a fluorescent drug  giving a measure of drug delivery \textit{in vivo} and Evan's blue, a permeability marker which is used clinically. 
+	Other fluorescent stains which may be interesting include  Doxorubicin, which is a fluorescent drug  giving a measure of drug delivery \textit{in vivo} and Evans blue, a permeability marker which is used clinically. 
 	Some non-fluorescent stains which would be used for tOPT include Alcian blue which stains cartilage, and Pimonidazole which is a clinically used hypoxia marker giving quantitative and qualitative measures of hypoxia in tissue \cite{Varia:1998}. 
 	
 	%Resins such as Mercox and Microphil. HERC (Spelling?), which is a perfusion marker administered \textit{in vivo}
 	
 	
-	One issue with choosing stains for use in OptCT is finding stains which can diffuse through a whole tumour. Stains administered \textit{in vivo}, such as by tail injection, may be preferable rather than trying to stain a large volume of tissue after dissection. For example, Soufan \textit{et al.} monitored gene expression during cardiac development in 2003. Their preferred stains  could not penetrate the entire embryo heart and they were forced to take slices, losing valuable 3-D information \cite{Soufan:2003cd}. 
+	One issue with choosing stains for use in optical CT is finding stains which can diffuse through a whole tumour. Stains administered \textit{in vivo}, such as by tail injection, may be preferable rather than trying to stain a large volume of tissue after dissection. For example, Soufan \textit{et al.} monitored gene expression during cardiac development in 2003. Their preferred stains  could not penetrate the entire embryo heart and they were forced to take slices, losing valuable 3-D information \cite{Soufan:2003cd}. 
 	
 	
-	\subsection{Optical Staining in OptCT}
+	\subsection{Optical Staining in optical CT}
 	
-	One example of fluorescent proteins being used for OptCT imaging is by Kim \textit{et al.} in 2008 \cite{Kim:2008eua}. A tumour cell line was genetically labelled with GFP and RFP which were used to image hypoxia-indcible factor 1 (HIF1) and necrotic regions respectively. Tumour micro-vasculature was labelled by a dilute solution of isotonic India ink, a light-absorbing stain administered \textit{in vivo} by tail injection. The use of multiple stains allows co-registered images to be taken using tOPT for the micro-vasculature, eOPT with two different emission filters to see hypoxic regions (GFP) and tumour cells (RFP). 
+	One example of fluorescent proteins being used for optical CT imaging is by Kim \textit{et al.} in 2008 \cite{Kim:2008eua}. A tumour cell line was genetically labelled with GFP and RFP which were used to image hypoxia-indcible factor 1 (HIF1) and necrotic regions respectively. Tumour micro-vasculature was labelled by a dilute solution of isotonic India ink, a light-absorbing stain administered \textit{in vivo} by tail injection. The use of multiple stains allows co-registered images to be taken using tOPT for the micro-vasculature, eOPT with two different emission filters to see hypoxic regions (GFP) and tumour cells (RFP). 
 	
 	
 	
@@ -522,14 +522,14 @@
 	
 	
 	
-	Oldham's group have also used a passive isotonic ink dye to image micro-vasculature. They have additionally tested an active  Fluorescein isothiocyanate (FITC)-lectin conjugate. The lectin protein binds to the endothelial lining while FITC fluorescence gives eOPT signal \cite{Oldham:2007ku}. Both agents were administered by tail vein injection before sacrifice of the animal allowing the stains to be circulated by the blood.  For imaging tumour cells themselves, HCT116 tumour cells were transfected with a gene coding for RFP and then implanted in the hind leg of a mouse \cite{Oldham:2006}. Using a DSRed2 filter, viable tumour cells were imaged in the OptECT set-up. Oldham demonstrates the superiority of OptCT/ECT for this type of imaging by comparison with $\mu$-CT and $\mu$-MRI (see Figure~\ref{fig:tumourstaining}).
+	Oldham's group have also used a passive isotonic ink dye to image micro-vasculature. They have additionally tested an active  Fluorescein isothiocyanate (FITC)-lectin conjugate. The lectin protein binds to the endothelial lining while FITC fluorescence gives eOPT signal \cite{Oldham:2007ku}. Both agents were administered by tail vein injection before sacrifice of the animal allowing the stains to be circulated by the blood.  For imaging tumour cells themselves, HCT116 tumour cells were transfected with a gene coding for RFP and then implanted in the hind leg of a mouse \cite{Oldham:2006}. Using a DSRed2 filter, viable tumour cells were imaged in the OptECT set-up. Oldham demonstrates the superiority of optical CT/ECT for this type of imaging by comparison with $\mu$-CT and $\mu$-MRI (see Figure~\ref{fig:tumourstaining}).
 	
 	
 	
 	\begin{figure}[H]
 		\centering
 		\includegraphics[scale=1]{intro_img/Oldham_2006_tumourstaining.jpg}
-		\caption{Figure showing the advantage of OptCT imaging over other modalities. Part (A) shows a projection image of a HCT116 tumour after optical clearing. (B) is an \textit{in vivo} $\mu$-CT image of the same tumour with 50$\mu$m resolution. (C) is \textit{in vivo} T1 weighted contrast enhanced $\mu$-MRI image of a similar tumour. The superior resolution and contrast in the OptCT image is evident. Images  adapted from \cite{Oldham:2006}.}
+		\caption{Figure showing the advantage of optical CT imaging over other modalities. Part (A) shows a projection image of a HCT116 tumour after optical clearing. (B) is an \textit{in vivo} $\mu$-CT image of the same tumour with 50$\mu$m resolution. (C) is \textit{in vivo} T1 weighted contrast enhanced $\mu$-MRI image of a similar tumour. The superior resolution and contrast in the optical CT image is evident. Images  adapted from \cite{Oldham:2006}.}
 		\label{fig:tumourstaining}
 	\end{figure}
 	
@@ -540,18 +540,18 @@
 	\newpage
 	\section{Conclusions}
 	
-	There is significant potential for further development of OptCT. Some new ideas include time-gating OPT using non-linear optics \cite{Bassi:2010}. Up-conversion using a crystal and Ti:sapphire laser  selects only ballistic light,  reducing scattering artefacts. However, employing this technique would significantly increase the system cost and complexity.
+	There is significant potential for further development of optical CT. Some new ideas include time-gating OPT using non-linear optics \cite{Bassi:2010}. Up-conversion using a crystal and Ti:sapphire laser  selects only ballistic light,  reducing scattering artefacts. However, employing this technique would significantly increase the system cost and complexity.
 	
 	Another group have successfully combined fluorescence lifetime imaging microscopy (FLIM) 
 	with OPT \cite{McGinty:2008ix}. FLIM, a ratiometric modality, can provide quantitative information about the local environment around fluorophores including pH, temperature and refractive index. Protein-protein interactions can be probed using F\"{o}rster  resonance energy transfer (FRET) which can be measured using FLIM.  The set-up for FLIM-OPT is very similar to OPT and  a mathematical model is required to calculate fluorescence lifetimes from projection data. Projections are recorded for a series of time-delays for each angle. \textit{In vivo} FLIM OPT has also been reported \cite{McGinty:2011vm}, and these methods could possibly be very useful for drug screening, espcially using FRET. The authors note that using a modulated CMOS camera and sinusoidally varying LED source could be a cheaper way of implementing FLIM-OPT \cite{McGinty:2011vm}.
 	
 	Other improvements include the development of a computational techniques leading to increased sensitivity \cite{Hornblad:2011fh}. This is an adaptation of histogram equalisation, an established technique.
 	The modulation transfer function (MTF), commonly used in optics as a measure of resolution, has been used to improve filtered in FBP \cite{Chen:2012}.
-	An established technique of high dynamic range imaging has been applied to OptCT on several occasions and most recently by Fei \textit{et al.} in 2012 \cite{Peng:2012wi}.
+	An established technique of high dynamic range imaging has been applied to optical CT on several occasions and most recently by Fei \textit{et al.} in 2012 \cite{Peng:2012wi}.
 	
 	A potentially improved version of OptECT has been reported by Lorbeer \textit{et al.} in 2011  \cite{Lorbeer:2011}. A first generation scanning laser set-up is used to record fluorescent signal giving a hundredfold increase in photon collection efficiency over CCD-based set-ups. 
 	
-	The  biological benefits of all these new techniques have not been fully explored and there is still plenty of scope for improving this new modality.  Overall, it appears OptCT could be the ideal modality to help us understand the biological origin of contrast in MR images. Although OptCT itself will probably never be used clinically, due to the limit on sample sizes, we hope that it can help increase the usefulness of MRI. There is also potential for OptCT to be used in pre-clinical screening of drugs and in monitoring tumour progression. Especially exciting is the possibility of using fluorescent proteins to track interactions between tumour and host cells. 
+	The  biological benefits of all these new techniques have not been fully explored and there is still plenty of scope for improving this new modality.  Overall, it appears optical CT could be the ideal modality to help us understand the biological origin of contrast in MR images. Although optical CT itself will probably never be used clinically, due to the limit on sample sizes, we hope that it can help increase the usefulness of MRI. There is also potential for optical CT to be used in pre-clinical screening of drugs and in monitoring tumour progression. Especially exciting is the possibility of using fluorescent proteins to track interactions between tumour and host cells. 
 	
 	
 
