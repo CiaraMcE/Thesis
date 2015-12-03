@@ -23,7 +23,7 @@
 	
 	
 	%\newpage
-	\section{Theory}
+	\section{Optical CT theory}
 	\label{sec:theory}
 	
 	%The theory behind CT reconstruction is broadly the same between x-ray CT and OptCT. One minor difference is that it is common in x-ray CT for the detectors to rotate around the sample whereas in OptCT the sample rotates and the detectors are stationary. This introduces a minus sign at one stage of the reconstruction algorithm. [WHY IS THIS?]
@@ -185,9 +185,11 @@
 	%Ring artefacts are generated when a feature not associated with the dosimeter sample is present in the same place in all projections. A typical cause might be a bubble or scratch on the wall of the tank containing the matching liquid. (Directly from Doran 2008)
 	
 	%\newpage
-	\section{Dosimetry}
+	\section{Development of optical CT scanning}
+	
+	\subsection{Dosimetry}
 	\label{sec:dos}
-	\subsection{Laser scanning configuration}
+	\subsection*{Laser scanning configuration}
 	
 	One of the first reported optical CT systems was developed in the area of gel dosimetry. Accurate 3-D measurement of dose delivery in radiotherapy is extremely important in developing safe treatment plans. Specialist polymer gels, such as BANG\textsuperscript{\textregistered} \cite{Maryanski:1996}, respond to irradiation with changes in optical attenuation and scattering properties.  This makes them ideal for measuring 3-D dose distributions. Previously the irradiated gels were measured by MRI and x-ray CT. However, these are expensive imaging modalities. In 1996, Gore and Maryanski published the first system for scanning polymer gels using optical computed tomography \cite{Gore:1999tg}. In later comparisons, OptCT has been found to be more precise, have reduced noise and smoother line profiles than MRI for gel dosimetry \cite{Oldham:2001gs}, although these results have since been disputed. 
 	
@@ -223,7 +225,7 @@
 	
 	
 	
-	\subsection{Pixelated detector based systems}
+	\subsection*{Pixelated detector based systems}
 	
 	The first CCD based optical CT system was developed in a separate field in 1996, investigating self-organising chemical structures \cite{Winfree:1996}.
 	In 1997 it was adopted for dosimetry by \cite{Tarte:2007} who employed an incoherent white light source and CCD camera detection. The advantage  of a pixelated detector based system  is that an entire 2-D projection can be imaged at once, potentially increasing the scanning speed by several  orders of magnitude depending on the data through-put rate. Tarte's system used a divergent light source and diffusing screen to measure optical density in a thin gel section (see Figure~\ref{fig:tarte_ccd_setup}). 
@@ -311,9 +313,9 @@
 	
 	
 	%\newpage
-	\section{Tissue imaging}
+	\subsection{Tissue imaging}
 	\label{sec:tissue}
-	\subsection{Optical Projection Tomography}
+	\subsection*{Optical Projection Tomography}
 	\label{subsec:OPT}
 	Another version of optical CT was  developed by Sharpe \textit{et al.} in the area of 3-D microscopy for gene expression studies \cite{Sharpe:2002jp}. Although this set-up in 2002 came after Gore's they are apparently independent and Sharpe named his technique Optical Projection Tomography (OPT).
 	
@@ -359,7 +361,7 @@
 	Wang and Wang have reported an improvement to OPT giving higher axial and lateral resolution, even for slices far from the optical axis \cite{Wang:2006hy, Wang:2007}. As previously mentioned, to obtain high quality reconstructions the projections should closely approximate a line integral of parallel rays passing through the sample \cite{Wang:2006hy}. This is not exactly the case for  OPT, which limits the best resolution possible. Wang proposed placing an iris at the back focus of the objective lens. This reduces divergence of the projection rays from paths parallel to the optical axis giving qualitatively better resolution.
 	
 	
-	\subsection{Fluorescent/emission  optical CT}
+	\subsection*{Fluorescent/emission  optical CT}
 	\label{subsec:eOPT}
 	
 	Sharpe was the first to identify the possibility of using OPT to image fluorescent stains in biological specimen \cite{Sharpe:2002jp}. There are a wide range of fluorescent optical stains in use in histology making this development particularly useful for biological imaging. It also offers the advantage of being able to record multiple signals independently unlike  transmission OPT (tOPT) \cite{Sharpe:2002jp}. 
@@ -453,7 +455,7 @@
 	
 	%\newpage
 	\section{Optical Staining}
-	\subsection{Staining for Cancer Markers}
+	\subsection*{Staining for Cancer Markers}
 	
 	The goal of our investigation will be characterising MRI contrast in tumours by comparison with detailed 3-D maps of histological stains given by optical CT. Staining for tumour recognition and characterisation is a well established area for histology and will be briefly reviewed here.  One aspect to be investigated is how these stains work in the presence of OCAs. Unfortunately, Oldham has not found a method of combining immunohistological stains with clearing procedures, making \textit{in vivo} staining the most attractive option at present \cite{Oldham:2008dfa}.
 	
@@ -511,7 +513,7 @@
 	One issue with choosing stains for use in optical CT is finding stains which can diffuse through a whole tumour. Stains administered \textit{in vivo}, such as by tail injection, may be preferable rather than trying to stain a large volume of tissue after dissection. For example, Soufan \textit{et al.} monitored gene expression during cardiac development in 2003. Their preferred stains  could not penetrate the entire embryo heart and they were forced to take slices, losing valuable 3-D information \cite{Soufan:2003cd}. 
 	
 	
-	\subsection{Optical Staining in optical CT}
+	\subsection*{Optical Staining in optical CT}
 	
 	One example of fluorescent proteins being used for optical CT imaging is by Kim \textit{et al.} in 2008 \cite{Kim:2008eua}. A tumour cell line was genetically labelled with GFP and RFP which were used to image hypoxia-indcible factor 1 (HIF1) and necrotic regions respectively. Tumour micro-vasculature was labelled by a dilute solution of isotonic India ink, a light-absorbing stain administered \textit{in vivo} by tail injection. The use of multiple stains allows co-registered images to be taken using tOPT for the micro-vasculature, eOPT with two different emission filters to see hypoxic regions (GFP) and tumour cells (RFP). 
 	

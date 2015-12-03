@@ -226,6 +226,13 @@ Darrell, A., Meyer, H., Marias, K., Brady, M., and Ripoll, J. (2008).
   optical projection tomography}.
 \newblock {\em Physics in Medicine and Biology}, 53(14):3863--3881.
 
+\bibitem[Dilmanian et~al., 2008]{dilmanian2008microbeam}
+Dilmanian, F.~A., Romanelli, P., Zhong, Z., Wang, R., Wagshul, M.~E.,
+  Kalef-Ezra, J., Maryanski, M.~J., Rosen, E.~M., and Anschel, D.~J. (2008).
+\newblock Microbeam radiation therapy: Tissue dose penetration and bang-gel
+  dosimetry of thick-beams’ array interlacing.
+\newblock {\em European journal of radiology}, 68(3):S129--S136.
+
 \bibitem[Doran et~al., 2013a]{doranultra-high2013}
 Doran, S., Rahman, A.~A., Br{\"a}uer-Krisch, E., Brochard, T., and Adamovics,
   J. (2013a).
@@ -234,14 +241,8 @@ Doran, S., Rahman, A.~A., Br{\"a}uer-Krisch, E., Brochard, T., and Adamovics,
 \newblock In {\em Journal of Physics: Conference Series}, volume 444, page
   012074. IOP Publishing.
 
-\bibitem[Doran, 2009a]{doranthe2009}
-Doran, S.~J. (2009a).
-\newblock The history and principles of optical computed tomography for
-  scanning {3-D} radiation dosimeters: 2008 update.
-\newblock {\em Journal of Physics: Conference Series}, 164.
-
-\bibitem[Doran, 2009b]{Doran:2008kh}
-Doran, S.~J. (2009b).
+\bibitem[Doran, 2009]{Doran:2008kh}
+Doran, S.~J. (2009).
 \newblock {The history and principles of optical computed tomography for
   scanning 3-D radiation dosimeters: 2008 update}.
 \newblock {\em Journal of Physics: Conference Series}, 164:012020.
@@ -648,6 +649,12 @@ Requardt, H., Corde, S., Siegbahn, E., LeDuc, G., Brochard, T., Blattmann, H.,
   Laissue, J., Bravin, A., et~al. (2005).
 \newblock New irradiation geometry for microbeam radiation therapy.
 \newblock {\em Physics in medicine and biology}, 50(13):3103.
+
+\bibitem[{Rivers} and {Gualda}, 2009]{rivers2009ring}
+{Rivers}, M.~L. and {Gualda}, G.~A. (2009).
+\newblock {'tomo\_display' and 'vol\_tools': IDL VM Packages for Tomography
+  Data Reconstruction, Processing, and Visualization}.
+\newblock {\em AGU Spring Meeting Abstracts}, page~A6.
 
 \bibitem[Rosset et~al., 2004]{rossetosirix:2004}
 Rosset, A., Spadola, L., and Ratib, O. (2004).

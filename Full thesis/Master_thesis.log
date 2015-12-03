@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  1 DEC 2015 18:44
+This is pdfTeX, Version 3.1415926-2.3-1.40.12 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2013.1.17)  3 DEC 2015 16:14
 entering extended mode
 **Master_thesis.tex
 ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\Master_thesis.tex"
@@ -920,56 +920,18 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
 
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 39.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 36.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 )
 \tf@toc=\write3
  [3]
-("C:\Users\cmcerlean\Documents\Thesis\Full thesis\Master_thesis.lof"
-Overfull \hbox (4.55687pt too wide) in paragraph at lines 2--2
- [][] []\OT1/ptm/m/n/12 Parallel ray ge-om-e-try show-ing how a pro-jec-tion/vi
-ew, $\OML/ztmcm/m/it/12 P[]\OT1/ztmcm/m/n/12 (\OML/ztmcm/m/it/12 x\OT1/ztmcm/m/
-n/12 )$\OT1/ptm/m/n/12 , is recorded 
- []
-
-[4
-
-
-] [5]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ô in font ptmr7t!
- [6] [7] [8]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-
-Overfull \hbox (5.73979pt too wide) in paragraph at lines 43--43
- \OT1/ptm/m/n/12 togram equal-i-sa-tion and me-dian fil-ter-ing. ZD6126-treated
- spleens (T13) 
- []
-
-[9]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
-)
-\tf@lof=\write4
- [10] ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\Master_thesis.lot")
-\tf@lot=\write5
-[11
-
-
-] ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\intro.tex"
-chapter 1.
+("C:\Users\cmcerlean\Documents\Thesis\Full thesis\methods.tex"
+chapter 2.
 
 Class scrbook Warning: \float@addtolists detected!
 (scrbook)              Implementation of \float@addtolist became
@@ -985,467 +947,299 @@ Class scrbook Warning: \float@addtolists detected!
 (scrbook)              a package that still implements the
 (scrbook)              deprecated \float@addtolist interface .
 
-[12
-
-
-
-]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 33.
- [13] <intro_img/Russ_projection.jpg, id=53, 350.81062pt x 225.09094pt>
-File: intro_img/Russ_projection.jpg Graphic file (type jpg)
-
-<use intro_img/Russ_projection.jpg>
-Package pdftex.def Info: intro_img/Russ_projection.jpg used on input line 75.
-(pdftex.def)             Requested size: 210.48799pt x 135.05559pt.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 76.
-
-<intro_img/Doran_2008_sinogram.jpg, id=54, 608.2725pt x 420.82219pt>
-File: intro_img/Doran_2008_sinogram.jpg Graphic file (type jpg)
-
-<use intro_img/Doran_2008_sinogram.jpg>
-Package pdftex.def Info: intro_img/Doran_2008_sinogram.jpg used on input line 8
-5.
-(pdftex.def)             Requested size: 412.56497pt x 285.4297pt.
- [14 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Russ_projection
-.jpg>] [15 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Doran_200
-8_sinogram.jpg>] [16]
-
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 152.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 10.
+[28
 
 
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 159.
 
 
-Class scrbook Warning: Usage of deprecated font command `\rm'!
-(scrbook)              You should note, that in 1994 font command `\rm' has
-(scrbook)              been defined for compatiblitiy to Script 2.0 only.
-(scrbook)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrbook)              shouldn't use such commands any longer and within
-(scrbook)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrbook)              See `fntguide.pdf' for more information about
-(scrbook)              recommended font commands.
-(scrbook)              Note also, that KOMA-Script will remove the definition
-(scrbook)              of `\rm' anytime until release of about version 3.20.
-(scrbook)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrbook)              by `\mathrm ' on input line 159.
-
-[17]
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <9> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 192.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 192.
- [18] <intro_img/Gore_setup.pdf, id=71, 483.8075pt x 323.2075pt>
-File: intro_img/Gore_setup.pdf Graphic file (type pdf)
-
-<use intro_img/Gore_setup.pdf>
-Package pdftex.def Info: intro_img/Gore_setup.pdf used on input line 211.
-(pdftex.def)             Requested size: 290.28674pt x 193.926pt.
- [19] [20 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Gore_setup
-.pdf>]
-<intro_img/Tarte_1997_ccdsetup.jpg, id=89, 744.53156pt x 312.41719pt>
-File: intro_img/Tarte_1997_ccdsetup.jpg Graphic file (type jpg)
-
-<use intro_img/Tarte_1997_ccdsetup.jpg>
-Package pdftex.def Info: intro_img/Tarte_1997_ccdsetup.jpg used on input line 2
-34.
-(pdftex.def)             Requested size: 297.80734pt x 124.96465pt.
- [21 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Tarte_1997_ccds
-etup.jpg>]
-<intro_img/Doran_2001_ccdsetup.jpg, id=93, 541.27219pt x 328.22626pt>
-File: intro_img/Doran_2001_ccdsetup.jpg Graphic file (type jpg)
-
-<use intro_img/Doran_2001_ccdsetup.jpg>
-Package pdftex.def Info: intro_img/Doran_2001_ccdsetup.jpg used on input line 2
-55.
-(pdftex.def)             Requested size: 297.70062pt x 180.525pt.
-
-<intro_img/Wolodzko_1999_conesetup.jpg, id=94, 571.38469pt x 636.87938pt>
-File: intro_img/Wolodzko_1999_conesetup.jpg Graphic file (type jpg)
-
-<use intro_img/Wolodzko_1999_conesetup.jpg>
-Package pdftex.def Info: intro_img/Wolodzko_1999_conesetup.jpg used on input li
-ne 278.
-(pdftex.def)             Requested size: 171.41672pt x 191.06528pt.
- [22 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Doran_2001_ccds
-etup.jpg>] [23 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Wolod
-zko_1999_conesetup.jpg>]
-<intro_img/Sharpe_2002_setup.jpg, id=101, 309.40594pt x 277.035pt>
-File: intro_img/Sharpe_2002_setup.jpg Graphic file (type jpg)
-
-<use intro_img/Sharpe_2002_setup.jpg>
-Package pdftex.def Info: intro_img/Sharpe_2002_setup.jpg used on input line 337
-.
-(pdftex.def)             Requested size: 206.28249pt x 184.70786pt.
-
-<intro_img/Sharpe_2003_mouse.jpg, id=102, 361.35pt x 476.53032pt>
-File: intro_img/Sharpe_2003_mouse.jpg Graphic file (type jpg)
-
-<use intro_img/Sharpe_2003_mouse.jpg>
-Package pdftex.def Info: intro_img/Sharpe_2003_mouse.jpg used on input line 339
-.
-(pdftex.def)             Requested size: 180.67456pt x 238.26457pt.
- [24]
-<intro_img/Fauver_2005_setup.jpg, id=106, 377.15906pt x 277.035pt>
-File: intro_img/Fauver_2005_setup.jpg Graphic file (type jpg)
-
-<use intro_img/Fauver_2005_setup.jpg>
-Package pdftex.def Info: intro_img/Fauver_2005_setup.jpg used on input line 353
-.
-(pdftex.def)             Requested size: 301.72766pt x 221.6283pt.
- [25 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Sharpe_2002_set
-up.jpg> <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Sharpe_2003_
-mouse.jpg>] [26 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Fauv
-er_2005_setup.jpg>]
-<intro_img/Oldham_2007ku_eCTsetup.jpg, id=114, 284.56313pt x 144.54pt>
-File: intro_img/Oldham_2007ku_eCTsetup.jpg Graphic file (type jpg)
-
-<use intro_img/Oldham_2007ku_eCTsetup.jpg>
-Package pdftex.def Info: intro_img/Oldham_2007ku_eCTsetup.jpg used on input lin
-e 383.
-(pdftex.def)             Requested size: 284.56242pt x 144.53963pt.
- [27 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Oldham_2007ku_e
-CTsetup.jpg>] [28] [29] [30]
-<intro_img/Padhani_2010_hallmarks.jpg, id=127, 632.3625pt x 442.65375pt>
-File: intro_img/Padhani_2010_hallmarks.jpg Graphic file (type jpg)
-
-<use intro_img/Padhani_2010_hallmarks.jpg>
-Package pdftex.def Info: intro_img/Padhani_2010_hallmarks.jpg used on input lin
-e 490.
-(pdftex.def)             Requested size: 379.42043pt x 265.59428pt.
- [31 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Padhani_2010_ha
-llmarks.jpg>] [32]
-<intro_img/Oldham_2006_tumourstaining.jpg, id=135, 393.72093pt x 137.7647pt>
-File: intro_img/Oldham_2006_tumourstaining.jpg Graphic file (type jpg)
-
-<use intro_img/Oldham_2006_tumourstaining.jpg>
-Package pdftex.def Info: intro_img/Oldham_2006_tumourstaining.jpg used on input
- line 531.
-(pdftex.def)             Requested size: 393.71997pt x 137.76434pt.
- [33 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/intro_img/Oldham_2006_tum
-ourstaining.jpg>] [34]) [35]
-("C:\Users\cmcerlean\Documents\Thesis\Full thesis\methods.tex"
-chapter 2.
-LaTeX Font Info:    Try loading font information for TS1+ptm on input line 7.
-("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
-File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
-)
-<meth_img/Dosimetry_setup.jpg, id=145, 391.7034pt x 536.2434pt>
+] <meth_img/Dosimetry_setup.jpg, id=19, 391.7034pt x 536.2434pt>
 File: meth_img/Dosimetry_setup.jpg Graphic file (type jpg)
 
 <use meth_img/Dosimetry_setup.jpg>
-Package pdftex.def Info: meth_img/Dosimetry_setup.jpg used on input line 19.
+Package pdftex.def Info: meth_img/Dosimetry_setup.jpg used on input line 23.
 (pdftex.def)             Requested size: 412.56497pt x 564.82321pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OMS/ptm/m/sl' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 24.
 
-Overfull \hbox (21.71164pt too wide) in paragraph at lines 24--27
-\OT1/ptm/m/n/12 chbach, Ger-many) in a glass match-ing tank (Part 704-002-40-10
-, Hellma GmbH, M[]ullheim,
- []
-
-[36
-
-
-
-
-] [37 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/Dosimetry_setup
-.jpg>] <meth_img/Presage_sample_mounts.jpg, id=153, 476.982pt x 294.3798pt>
+<meth_img/Presage_sample_mounts.jpg, id=20, 476.982pt x 294.3798pt>
 File: meth_img/Presage_sample_mounts.jpg Graphic file (type jpg)
 
 <use meth_img/Presage_sample_mounts.jpg>
 Package pdftex.def Info: meth_img/Presage_sample_mounts.jpg used on input line 
-35.
+42.
 (pdftex.def)             Requested size: 371.30595pt x 229.16164pt.
-LaTeX Font Info:    Font shape `OMS/ptm/m/sl' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 36.
 
-<meth_img/tissue_setup.jpg, id=154, 461.5644pt x 258.7266pt>
+<meth_img/tissue_setup.jpg, id=21, 461.5644pt x 258.7266pt>
 File: meth_img/tissue_setup.jpg Graphic file (type jpg)
 
 <use meth_img/tissue_setup.jpg>
-Package pdftex.def Info: meth_img/tissue_setup.jpg used on input line 48.
+Package pdftex.def Info: meth_img/tissue_setup.jpg used on input line 56.
 (pdftex.def)             Requested size: 412.56497pt x 231.25682pt.
- [38 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/Presage_sample_m
-ounts.jpg>] [39 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/tissu
-e_setup.jpg>] [40]
-<meth_img/Brain_J5_clearing.png, id=164, 709.2096pt x 228.855pt>
+ [29] [30 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/Dosimetry_s
+etup.jpg>] [31 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/Presag
+e_sample_mounts.jpg> <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/
+tissue_setup.jpg>] [32] [33]
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 158.
+
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\ts1ptm.fd"
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+<meth_img/Brain_J5_clearing.png, id=40, 709.2096pt x 228.855pt>
 File: meth_img/Brain_J5_clearing.png Graphic file (type png)
 
 <use meth_img/Brain_J5_clearing.png>
-Package pdftex.def Info: meth_img/Brain_J5_clearing.png used on input line 148.
+Package pdftex.def Info: meth_img/Brain_J5_clearing.png used on input line 178.
 
 (pdftex.def)             Requested size: 412.56497pt x 133.13408pt.
- [41]
-<meth_img/heart_brain_sclbr.png, id=169, 445.1832pt x 291.489pt>
-File: meth_img/heart_brain_sclbr.png Graphic file (type png)
-
-<use meth_img/heart_brain_sclbr.png>
-Package pdftex.def Info: meth_img/heart_brain_sclbr.png used on input line 173.
-
-(pdftex.def)             Requested size: 412.56497pt x 270.14348pt.
- [42 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/Brain_J5_clearin
-g.png>] [43 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/heart_bra
-in_sclbr.png>]
-<meth_img/EB_rod_new.jpg, id=179, 473.1276pt x 464.4552pt>
+ [34 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/Brain_J5_clearin
+g.png>]
+<meth_img/EB_rod_new.jpg, id=47, 473.1276pt x 464.4552pt>
 File: meth_img/EB_rod_new.jpg Graphic file (type jpg)
 
 <use meth_img/EB_rod_new.jpg>
-Package pdftex.def Info: meth_img/EB_rod_new.jpg used on input line 212.
+Package pdftex.def Info: meth_img/EB_rod_new.jpg used on input line 242.
 (pdftex.def)             Requested size: 412.56497pt x 405.00114pt.
- [44] [45 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/EB_rod_new.
+ [35] [36 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/EB_rod_new.
 jpg>]
-<meth_img/ideal_dof_diagram.jpg, id=186, 365.2044pt x 211.0284pt>
+<meth_img/ideal_dof_diagram.jpg, id=54, 365.2044pt x 211.0284pt>
 File: meth_img/ideal_dof_diagram.jpg Graphic file (type jpg)
 
 <use meth_img/ideal_dof_diagram.jpg>
-Package pdftex.def Info: meth_img/ideal_dof_diagram.jpg used on input line 261.
+Package pdftex.def Info: meth_img/ideal_dof_diagram.jpg used on input line 289.
 
 (pdftex.def)             Requested size: 371.30595pt x 214.56346pt.
- [46 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/ideal_dof_diagra
-m.jpg>] [47]
-<meth_img/MTF_50_graph.png, id=194, 516.42938pt x 339.51843pt>
-File: meth_img/MTF_50_graph.png Graphic file (type png)
+ [37 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/ideal_dof_diagra
+m.jpg>] [38]
+<meth_img/MTF_for_A3.jpg, id=65, 456.7464pt x 256.7994pt>
+File: meth_img/MTF_for_A3.jpg Graphic file (type jpg)
 
-<use meth_img/MTF_50_graph.png>
-Package pdftex.def Info: meth_img/MTF_50_graph.png used on input line 310.
-(pdftex.def)             Requested size: 288.79422pt x 189.86998pt.
+<use meth_img/MTF_for_A3.jpg>
+Package pdftex.def Info: meth_img/MTF_for_A3.jpg used on input line 341.
+(pdftex.def)             Requested size: 371.30595pt x 208.77046pt.
 
-<mrt_img/mrt_Fig6.jpg, id=195, 505.89pt x 441.3288pt>
+<mrt_img/mrt_Fig6.jpg, id=66, 505.89pt x 441.3288pt>
 File: mrt_img/mrt_Fig6.jpg Graphic file (type jpg)
 
 <use mrt_img/mrt_Fig6.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig6.jpg used on input line 326.
+Package pdftex.def Info: mrt_img/mrt_Fig6.jpg used on input line 357.
 (pdftex.def)             Requested size: 371.30595pt x 323.92494pt.
- [48 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/MTF_50_graph.png
->]
-Underfull \hbox (badness 10000) in paragraph at lines 335--335
+ [39 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/MTF_for_A3.jpg>]
+
+Underfull \hbox (badness 10000) in paragraph at lines 366--366
 []|\OT1/ptm/b/n/12 Depth of field
  []
 
-[49 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig6.jpg>]
-<meth_img/focusing_beads.jpg, id=203, 522.753pt x 259.2084pt>
+[40 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig6.jpg>]
+<meth_img/focusing_beads.jpg, id=73, 522.753pt x 259.2084pt>
 File: meth_img/focusing_beads.jpg Graphic file (type jpg)
 
 <use meth_img/focusing_beads.jpg>
-Package pdftex.def Info: meth_img/focusing_beads.jpg used on input line 364.
+Package pdftex.def Info: meth_img/focusing_beads.jpg used on input line 395.
 (pdftex.def)             Requested size: 412.56497pt x 204.57066pt.
-) [50 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/focusing_beads.
-jpg>]
+ [41 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/meth_img/focusing_beads.j
+pg>]) [42]
 ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\mrt.tex"
 chapter 3.
-<mrt_img/blattmann_mrt_hist.jpg, id=207, 533.3526pt x 205.7286pt>
+<mrt_img/blattmann_mrt_hist.jpg, id=80, 533.3526pt x 205.7286pt>
 File: mrt_img/blattmann_mrt_hist.jpg Graphic file (type jpg)
 
 <use mrt_img/blattmann_mrt_hist.jpg>
 Package pdftex.def Info: mrt_img/blattmann_mrt_hist.jpg used on input line 37.
 (pdftex.def)             Requested size: 412.56497pt x 159.13664pt.
-Missing character: There is no ‚ in font ptmro7t!
-Missing character: There is no Ä in font ptmro7t!
-Missing character: There is no ô in font ptmro7t!
-Missing character: There is no ‚ in font ptmro7t!
-Missing character: There is no Ä in font ptmro7t!
-Missing character: There is no ô in font ptmro7t!
- [51
+ [43
 
 
 
 
-] [52 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/blattmann_mrt_hi
+] [44 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/blattmann_mrt_hi
 st.jpg>]
-<mrt_img/MRT_geometries.jpg, id=214, 476.5002pt x 499.6266pt>
+<mrt_img/MRT_geometries.jpg, id=88, 476.5002pt x 499.6266pt>
 File: mrt_img/MRT_geometries.jpg Graphic file (type jpg)
 
 <use mrt_img/MRT_geometries.jpg>
-Package pdftex.def Info: mrt_img/MRT_geometries.jpg used on input line 67.
-(pdftex.def)             Requested size: 330.05322pt x 346.09212pt.
- [53] [54 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/MRT_geometri
+Package pdftex.def Info: mrt_img/MRT_geometries.jpg used on input line 68.
+(pdftex.def)             Requested size: 412.56497pt x 432.61324pt.
+ [45] [46 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/MRT_geometri
 es.jpg>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ú in font ptmr7t!
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no Ä in font ptmr7t!
-Missing character: There is no ù in font ptmr7t!
-Missing character: There is no ‚ in font zptmcm7t!
-Missing character: There is no Ä in font zptmcm7t!
-Missing character: There is no ì in font zptmcm7t!
- [55]
-Overfull \hbox (26.63031pt too wide) in paragraph at lines 93--94
+Overfull \hbox (26.63031pt too wide) in paragraph at lines 96--97
 []\OT1/ptm/m/n/12 The cur-rent work has two aims. Sec-tion 3.2[]: 3-D Vi-su-al-
 i-sa-tion es-tab-lishes how PRESAGE[]
  []
 
+[47]
 
 LaTeX Font Warning: Font shape `OMS/ptm/bx/n' undefined
-(Font)              using `OMS/ptm/m/n' instead on input line 95.
+(Font)              using `OMS/ptm/m/n' instead on input line 107.
 
 LaTeX Font Info:    Font shape `OMS/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 95.
-Missing character: There is no ¬ in font ptmr7t!
-Missing character: There is no Æ in font ptmr7t!
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 107.
 
-Overfull \hbox (13.95886pt too wide) in paragraph at lines 104--105
-[]\OT1/ptm/m/n/12 Custom-made PRESAGE[] plas-tic dosime-ters were sup-plied by 
-the man-u-fac-turer (Heuris
+Overfull \hbox (27.12227pt too wide) in paragraph at lines 109--111
+\OT1/ptm/m/n/12 PRESAGE[] is a solid, ra-diochromic 3-D dosime-ter con-sist-ing
+ of a trans-par-ent polyurethane
  []
 
-<mrt_img/Presage_linearity.jpg, id=225, 586.3506pt x 562.2606pt>
+
+Overfull \hbox (7.23935pt too wide) in paragraph at lines 112--113
+[]\OT1/ptm/m/n/12 Custom made PRESAGE[] sam-ples were sup-plied by the man-u-fa
+c-turer (Heuris Pharma,
+ []
+
+
+Overfull \hbox (5.75098pt too wide) in paragraph at lines 112--113
+\OT1/ptm/m/n/12 Skill-man, NJ) in the form of cylin-ders of di-am-e-ter 22 mm a
+nd 9.7 mm. The polyurethane
+ []
+
+[48] <mrt_img/Presage_linearity.jpg, id=101, 586.3506pt x 644.1666pt>
 File: mrt_img/Presage_linearity.jpg Graphic file (type jpg)
 
 <use mrt_img/Presage_linearity.jpg>
-Package pdftex.def Info: mrt_img/Presage_linearity.jpg used on input line 111.
-(pdftex.def)             Requested size: 412.56497pt x 395.61305pt.
- [56] [57 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/Presage_line
-arity.jpg>]
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Package pdftex.def Info: mrt_img/Presage_linearity.jpg used on input line 129.
+(pdftex.def)             Requested size: 412.56497pt x 453.24306pt.
+
+Overfull \hbox (1.01494pt too wide) in paragraph at lines 147--147
+[]|\OT1/ptm/b/n/12 Sample| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 []|\OT1/ptm/b/n/12 Peak
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Underfull \hbox (badness 10000) in paragraph at lines 147--147
 \OT1/ptm/b/n/12 dose
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 141--141
+Overfull \hbox (1.42836pt too wide) in paragraph at lines 147--147
 []|\OT1/ptm/b/n/12 Dosimeter
  []
 
 
-Underfull \hbox (badness 7796) in paragraph at lines 144--144
+Underfull \hbox (badness 7238) in paragraph at lines 148--149
+[]|\OT1/ptm/m/n/12 Four fields of $\OT1/ztmcm/m/n/12 7 \OMS/ztmcm/m/n/12  \OT1
+/ztmcm/m/n/12 7$ \OT1/ptm/m/n/12 in-ter-
+ []
+
+
+Underfull \hbox (badness 1577) in paragraph at lines 149--150
+[]|\OT1/ptm/m/n/12 Four $\OT1/ztmcm/m/n/12 (5 \OMS/ztmcm/m/n/12  \OT1/ztmcm/m/
+n/12 5)$\OT1/ptm/m/n/12 mm$[]$ mi-cropla-nar
+ []
+
+
+Underfull \hbox (badness 1953) in paragraph at lines 150--150
 []|\OT1/ptm/m/n/12 Multiport cross-
  []
 
 
-Underfull \hbox (badness 2418) in paragraph at lines 144--144
-[]|\OT1/ptm/m/n/12 In an-thro-po-mor-phic head phan-tom,
+Underfull \hbox (badness 1005) in paragraph at lines 150--151
+\OT1/ptm/m/n/12 tom, three $\OT1/ztmcm/m/n/12 (10 \OMS/ztmcm/m/n/12  \OT1/ztmc
+m/m/n/12 10)$\OT1/ptm/m/n/12 mm$[]$ mi-
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 145--145
-[]|\OT1/ptm/m/n/12 Single mi-cropla-
+Underfull \hbox (badness 2384) in paragraph at lines 150--151
+\OT1/ptm/m/n/12 cropla-nar ar-rays sep-a-rated by
  []
 
 
-Underfull \hbox (badness 2181) in paragraph at lines 146--146
-[]|\OT1/ptm/m/n/12 Single mi-cropla-
- []
-
-
-Underfull \hbox (badness 2181) in paragraph at lines 147--147
-[]|\OT1/ptm/m/n/12 Single mi-cropla-
- []
-
-
-Overfull \hbox (44.52809pt too wide) in paragraph at lines 139--149
+Overfull \hbox (3.09444pt too wide) in paragraph at lines 145--155
  [][] 
  []
 
-[58]
-Missing character: There is no ‚ in font zptmcm7t!
-Missing character: There is no à in font zptmcm7t!
-Missing character: There is no í in font zptmcm7t!
- <mrt_img/mrt_Fig1.jpg, id=235, 516.9714pt x 194.6472pt>
+[49] [50 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/Presage_linea
+rity.jpg>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no à in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+ <mrt_img/mrt_Fig1.jpg, id=109, 516.9714pt x 194.6472pt>
 File: mrt_img/mrt_Fig1.jpg Graphic file (type jpg)
 
 <use mrt_img/mrt_Fig1.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig1.jpg used on input line 161.
+Package pdftex.def Info: mrt_img/mrt_Fig1.jpg used on input line 168.
 (pdftex.def)             Requested size: 371.30595pt x 139.80133pt.
- [59]
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 []|\OT1/ptm/b/n/12 Voxel size
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--178
+Underfull \hbox (badness 10000) in paragraph at lines 184--184
 []|\OT1/ptm/b/n/12 Acquisition
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
+Underfull \hbox (badness 10000) in paragraph at lines 186--186
 []|\OT1/ptm/m/n/12 High-
  []
 
-<mrt_img/mrt_Fig2.jpg, id=239, 444.91219pt x 362.85562pt>
+[51] <mrt_img/mrt_Fig2.jpg, id=113, 444.91219pt x 362.85562pt>
 File: mrt_img/mrt_Fig2.jpg Graphic file (type jpg)
 
 <use mrt_img/mrt_Fig2.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig2.jpg used on input line 195.
+Package pdftex.def Info: mrt_img/mrt_Fig2.jpg used on input line 201.
 (pdftex.def)             Requested size: 288.79422pt x 235.53223pt.
- [60 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig1.jpg>] <m
-rt_img/mrt_Fig3.jpg, id=243, 198.5016pt x 175.857pt>
+
+<mrt_img/mrt_Fig3.jpg, id=114, 198.5016pt x 175.857pt>
 File: mrt_img/mrt_Fig3.jpg Graphic file (type jpg)
 
 <use mrt_img/mrt_Fig3.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig3.jpg used on input line 205.
+Package pdftex.def Info: mrt_img/mrt_Fig3.jpg used on input line 211.
 (pdftex.def)             Requested size: 288.79422pt x 255.85016pt.
 
-<mrt_img/mrt_Fig4.jpg, id=244, 481.3182pt x 503.9628pt>
+<mrt_img/mrt_Fig4.jpg, id=115, 481.3182pt x 503.9628pt>
 File: mrt_img/mrt_Fig4.jpg Graphic file (type jpg)
 
 <use mrt_img/mrt_Fig4.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig4.jpg used on input line 216.
+Package pdftex.def Info: mrt_img/mrt_Fig4.jpg used on input line 222.
 (pdftex.def)             Requested size: 371.30595pt x 388.77539pt.
- [61 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig2.jpg>]
-Missing character: There is no ‚ in font ptmr7t!
-Missing character: There is no à in font ptmr7t!
-Missing character: There is no í in font ptmr7t!
- [62 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig3.jpg>] [6
-3 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig4.jpg>] [64] 
-[65]
-<mrt_img/mrt_Fig7.jpg, id=261, 323.7696pt x 572.3784pt>
-File: mrt_img/mrt_Fig7.jpg Graphic file (type jpg)
-
-<use mrt_img/mrt_Fig7.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig7.jpg used on input line 260.
-(pdftex.def)             Requested size: 247.54149pt x 437.61476pt.
-
-<mrt_img/Beam_10um_sampling.jpg, id=262, 417.2388pt x 479.8728pt>
+ [52 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig1.jpg>] [5
+3 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig2.jpg> <C:/Us
+ers/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig3.jpg>] [54 <C:/Users
+/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig4.jpg>] <mrt_img/Beam_10
+um_sampling.jpg, id=125, 417.2388pt x 479.8728pt>
 File: mrt_img/Beam_10um_sampling.jpg Graphic file (type jpg)
 
 <use mrt_img/Beam_10um_sampling.jpg>
-Package pdftex.def Info: mrt_img/Beam_10um_sampling.jpg used on input line 270.
+Package pdftex.def Info: mrt_img/Beam_10um_sampling.jpg used on input line 245.
 
-(pdftex.def)             Requested size: 330.05322pt x 379.61523pt.
+(pdftex.def)             Requested size: 412.56497pt x 474.51172pt.
+ [55] [56 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/Beam_10um_sa
+mpling.jpg>]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no à in font ptmr7t!
+Missing character: There is no í in font ptmr7t!
+ [57] [58]
+<mrt_img/mrt_Fig7.jpg, id=139, 323.7696pt x 572.3784pt>
+File: mrt_img/mrt_Fig7.jpg Graphic file (type jpg)
 
-<mrt_img/mrt_Fig8.jpg, id=263, 424.9476pt x 518.4168pt>
+<use mrt_img/mrt_Fig7.jpg>
+Package pdftex.def Info: mrt_img/mrt_Fig7.jpg used on input line 280.
+(pdftex.def)             Requested size: 309.42372pt x 547.0403pt.
+
+<mrt_img/mrt_Fig8.jpg, id=140, 424.9476pt x 518.4168pt>
 File: mrt_img/mrt_Fig8.jpg Graphic file (type jpg)
 
 <use mrt_img/mrt_Fig8.jpg>
-Package pdftex.def Info: mrt_img/mrt_Fig8.jpg used on input line 280.
-(pdftex.def)             Requested size: 350.68274pt x 427.82568pt.
- [66] [67 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig7.jpg
->] [68 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/Beam_10um_sampl
-ing.jpg>] [69 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig8
-.jpg>] [70]) [71]
+Package pdftex.def Info: mrt_img/mrt_Fig8.jpg used on input line 292.
+(pdftex.def)             Requested size: 371.30595pt x 452.98073pt.
+ [59] [60 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig7.jpg
+>] [61 <C:/Users/cmcerlean/Documents/Thesis/Full thesis/mrt_img/mrt_Fig8.jpg>] 
+[62]) [63]
 ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\Master_thesis.bbl"
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no à in font ptmr7t!
@@ -1453,7 +1247,7 @@ Missing character: There is no í in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no à in font ptmr7t!
 Missing character: There is no í in font ptmr7t!
- [79
+ [88
 
 
 
@@ -1465,42 +1259,46 @@ Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 
-[80]
+[89]
 Underfull \hbox (badness 1087) in paragraph at lines 149--153
 []\OT1/ptm/m/n/12 Br[]auer-Krisch, E., Rosen-feld, A. B., Lerch, M. L.,
  []
 
-[81] [82]
+[90]
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
+ [91]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
- [83]
+ [92]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
- [84]
+ [93]
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ì in font ptmr7t!
 Missing character: There is no Œ in font ptmr7t!
 Missing character: There is no ≤ in font ptmr7t!
- [85] [86]
-Underfull \hbox (badness 1337) in paragraph at lines 501--506
+ [94] [95]
+Underfull \hbox (badness 1337) in paragraph at lines 502--507
 \OT1/ptm/m/n/12 H., Br[]auer-Krisch, E., Bravin, A., Pere-ver-taylo, V., and Ro
 sen-feld, A. B.
  []
 
 
-Underfull \hbox (badness 1253) in paragraph at lines 521--525
+Underfull \hbox (badness 1253) in paragraph at lines 522--526
 []\OT1/ptm/m/n/12 Mart[]nez-Rovira, I., Sem-pau, J., and Prezado, Y.
  []
 
-[87] [88] [89]
-Underfull \hbox (badness 1939) in paragraph at lines 688--693
+[96] [97] [98]
+Underfull \hbox (badness 1939) in paragraph at lines 695--700
 []\OT1/ptm/m/n/12 Serduc, R., Br[]auer-Krisch, E., Bouchet, A., Re-naud, L.,
  []
 
-[90] [91] [92]) [93]
+[99] [100] [101]) [102]
 ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\Master_thesis.aux"
 ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\intro.aux")
 ("C:\Users\cmcerlean\Documents\Thesis\Full thesis\methods.aux")
@@ -1513,28 +1311,27 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 17539 strings out of 494045
- 340961 string characters out of 3148375
- 420901 words of memory out of 3000000
- 20513 multiletter control sequences out of 15000+200000
- 76458 words of font info for 181 fonts, out of 3000000 for 9000
+ 17411 strings out of 494045
+ 337534 string characters out of 3148375
+ 422915 words of memory out of 3000000
+ 20427 multiletter control sequences out of 15000+200000
+ 63517 words of font info for 153 fonts, out of 3000000 for 9000
  715 hyphenation exceptions out of 8191
- 57i,11n,100p,10406b,749s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 57i,15n,100p,10406b,1100s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmsy9.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/hoekwater/rsfs/rs
-fs10.pfb><C:/Users/cmcerlean/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/
-usyr.pfb><C:/Users/cmcerlean/AppData/Roaming/MiKTeX/2.9/fonts/type1/urw/symbol/
-usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Prog
-ram Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 
-2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on Master_thesis.pdf (86 pages, 3148676 bytes).
+public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/hoekwate
+r/rsfs/rsfs10.pfb><C:/Users/cmcerlean/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
+w/symbol/usyr.pfb><C:/Users/cmcerlean/AppData/Roaming/MiKTeX/2.9/fonts/type1/ur
+w/symbol/usyr.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb
+><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/urw/times/utmri8a.pfb>
+Output written on Master_thesis.pdf (54 pages, 2043477 bytes).
 PDF statistics:
- 373 PDF objects out of 1000 (max. 8388607)
+ 242 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 161 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 

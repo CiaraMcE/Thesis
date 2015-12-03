@@ -1,0 +1,68 @@
+\contentsline {chapter}{\numberline {1}Introduction}{12}
+\contentsline {section}{\numberline {1.1}Introduction}{12}
+\contentsline {section}{\numberline {1.2}Theory}{13}
+\contentsline {subsection}{\numberline {1.2.1}Radon Space}{13}
+\contentsline {subsection}{\numberline {1.2.2}Filtered Back-projection}{15}
+\contentsline {subsection}{\numberline {1.2.3}Optics}{17}
+\contentsline {section}{\numberline {1.3}Dosimetry}{18}
+\contentsline {subsection}{\numberline {1.3.1}Laser scanning configuration}{18}
+\contentsline {subsection}{\numberline {1.3.2}Pixelated detector based systems}{20}
+\contentsline {paragraph}{\nonumberline Parallel beam configuration:}{21}
+\contentsline {paragraph}{\nonumberline Cone beam configuration:}{22}
+\contentsline {section}{\numberline {1.4}Tissue imaging}{23}
+\contentsline {subsection}{\numberline {1.4.1}Optical Projection Tomography}{23}
+\contentsline {subsection}{\numberline {1.4.2}Fluorescent/emission optical CT}{26}
+\contentsline {section}{\numberline {1.5}Optical Clearing}{29}
+\contentsline {section}{\numberline {1.6}Optical Staining}{30}
+\contentsline {subsection}{\numberline {1.6.1}Staining for Cancer Markers}{30}
+\contentsline {subsection}{\numberline {1.6.2}Optical Staining in optical CT}{33}
+\contentsline {section}{\numberline {1.7}Conclusions}{34}
+\contentsline {chapter}{\numberline {2}Methods and Characterisation}{36}
+\contentsline {section}{\numberline {2.1}Optical CT Materials and Methods}{36}
+\contentsline {subsection}{\numberline {2.1.1}Hardware}{36}
+\contentsline {subsection}{\numberline {2.1.2}Software}{37}
+\contentsline {subsubsection}{\numberline {2.1.2.1}Acquisition}{37}
+\contentsline {subsubsection}{\numberline {2.1.2.2}Reconstruction}{40}
+\contentsline {subsection}{\numberline {2.1.3}Scanning procedure}{40}
+\contentsline {subsection}{\numberline {2.1.4}Tissue sample preparation}{41}
+\contentsline {section}{\numberline {2.2}Optical CT system characterisation}{43}
+\contentsline {subsection}{\numberline {2.2.1}Linear response}{43}
+\contentsline {subsection}{\numberline {2.2.2}Spatial resolution}{45}
+\contentsline {subsection}{\numberline {2.2.3}Focal position}{49}
+\contentsline {section}{\numberline {2.3}Conclusions}{50}
+\contentsline {chapter}{\numberline {3}MRT}{51}
+\contentsline {section}{\numberline {3.1}Introduction}{51}
+\contentsline {subsection}{\numberline {3.1.1}Introduction to MRT}{51}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Technical Challenges}{51}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Dosimetry for MRT}{53}
+\contentsline {subsection}{\numberline {3.1.2}Optical CT dosimetry}{55}
+\contentsline {subsubsection}{\numberline {3.1.2.1}PRESAGE\textregistered }{56}
+\contentsline {section}{\numberline {3.2}3-D Visualisation}{58}
+\contentsline {subsection}{\numberline {3.2.1}Methods and Materials}{58}
+\contentsline {subsubsection}{\numberline {3.2.1.1}Sample irradiation}{58}
+\contentsline {subsubsection}{\numberline {3.2.1.2}Optical CT microscopy}{59}
+\contentsline {subsection}{\numberline {3.2.2}Results}{60}
+\contentsline {section}{\numberline {3.3}Quantitative measurements of PVDR}{61}
+\contentsline {subsection}{\numberline {3.3.1}PVDR measurement}{62}
+\contentsline {subsection}{\numberline {3.3.2}Sampling investigation}{64}
+\contentsline {subsection}{\numberline {3.3.3}Deconvolution}{64}
+\contentsline {subsection}{\numberline {3.3.4}Results}{65}
+\contentsline {subsubsection}{\numberline {3.3.4.1}PVDR measurement}{65}
+\contentsline {subsection}{\numberline {3.3.5}Sampling investigation}{66}
+\contentsline {subsubsection}{\numberline {3.3.5.1}Deconvolution}{66}
+\contentsline {section}{\numberline {3.4}Discussion}{66}
+\contentsline {section}{\numberline {3.5}Conclusions}{71}
+\contentsline {chapter}{\numberline {4}Spleen}{63}
+\contentsline {section}{\numberline {4.1}Introduction}{63}
+\contentsline {section}{\numberline {4.2}Materials and Methods}{65}
+\contentsline {subsection}{\numberline {4.2.1}Tissue collection}{65}
+\contentsline {subsection}{\numberline {4.2.2}Optical CT imaging}{65}
+\contentsline {subsection}{\numberline {4.2.3}Image Analysis}{67}
+\contentsline {subsection}{\numberline {4.2.4}Simulation}{68}
+\contentsline {section}{\numberline {4.3}Results}{69}
+\contentsline {section}{\numberline {4.4}Discussion}{72}
+\contentsline {section}{\numberline {4.5}Conclusion}{75}
+\contentsline {chapter}{\numberline {5}Vasculature Imaging}{76}
+\contentsline {subsection}{\numberline {5.0.1}Vascular staining}{76}
+\contentsline {subsubsection}{\nonumberline India Ink}{76}
+\contentsline {chapter}{\numberline {6}Conclusions}{78}

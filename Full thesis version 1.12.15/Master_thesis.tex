@@ -1,0 +1,81 @@
+\documentclass[oneside, 12pt]{scrbook}
+
+\usepackage[autooneside]{scrpage2}
+\usepackage[pdftex]{graphicx}
+\usepackage{mathrsfs, nicefrac, amsmath, amssymb, array, cite, float}
+\usepackage{geometry}
+\geometry{a4paper, left=40mm, right=25mm, top=25mm, bottom=25mm}
+\usepackage{datetime}
+
+\usepackage{sidecap}
+\usepackage{afterpage}
+\usepackage{subfigure}
+
+\usepackage[format=plain,labelsep=period,labelfont=bf,font={small,onehalfspacing},textfont=sl, width=.9\textwidth]{caption}
+\usepackage{setspace}
+\onehalfspacing
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{2ex}
+\bibliographystyle{apalike}
+
+%\usepackage{titlesec}
+%\titleformat{\chapter}[block]{\Large\bfseries}{\thechapter}{0.5ex}{\vspace{1ex}}{\vspace{-0.5ex}}
+\usepackage{siunitx}    %for greek units
+\usepackage{mathptmx}    %Times Roman font
+\setkomafont{disposition}{\bfseries} %Change all font incl headings to roman
+\setcounter{secnumdepth}{3}   % Number \subsubsection
+\setcounter{tocdepth}{3}      % Include \subsubsection in ToC
+
+\pagestyle{scrheadings}
+\ihead{}
+\chead{}
+\ohead[]{\headmark}
+\cfoot[]{}
+\ofoot[\pagemark]{\pagemark}
+
+\title{Quantitative three-dimensional imaging in cancer research using optical computed tomography}
+\author{Ciara McErlean}
+\date{\today}
+%\titlehead{A Thesis submitted for the degree of Doctor of Philosophy}
+%\publishers{School of Something\\e}
+
+
+\includeonly{ methods, mrt}
+
+\begin{document}
+	\rmfamily
+	%\maketitle
+    \tableofcontents
+	%\listoffigures
+	%\listoftables
+	
+%	\chapter{Acknowledgements}
+%	I would like to thank my supervisor, Professor Someone. This
+%	research was funded by the Imaginary Research Council.
+%	\chapter{Abstract}
+%	Standard 2-D microscopy has a vital role in cancer research. However, errors associated with taking 2-D samples from often heterogeneous 3-D tissues means that quantitative measurements can be unreliable. There are many examples of when having a 3-D dataset using optical contrast would be of significant interest. I have illustrated several of these areas in this thesis, using a relatively new 3-D imaging modality to investigate 3-D radiation dosimetry, quantification of drug toxicity effects and characterisation of tumour vasculature.  
+%	
+%	Optical computed tomography (CT) is a high-resolution 3-D imaging technique. The many existing well-characterised forms of optical contrast give optical CT an advantage over non-optical techniques such as x-ray $\mu$CT. Compared to other optical 3-D modalities, such as confocal microscopy, optical CT has the advantage of better penetration depth, after a process of optical clearing, and the ability to deliver quantitative images not simply `pretty pictures'.
+%	
+%	One area where 3-D information is increasingly vital, as treatments become more complex, is radiotherapy dosimetry. Microbeam radiation therapy (MRT) is an emerging form of radiotherapy using very small beams (50$\mu$m). I have shown potential of optical CT as a quality assurance method for MRT in future clinical trials and demonstrated the first 3-D visualisation of an MRT treatment. 
+%	
+%	Drug toxicity is of major concern during drug development and having fast, reliable and automated measures of toxicity would be beneficial. I have demonstrated the ability of optical CT to detect off-target toxicity effects in murine spleen. 3-D textural analysis produced several possible candidates of quantitative measures of toxicity, which are more reliable than 2-D measures.
+%	
+%	The development of tumour vasculature and its response to therapy is of significant interest in the field of cancer research. I have shown the potential for using optical CT to image murine vasculature in both the kidney and allograft neuroblastoma tumours using passive India Ink contrast. The results from optical CT can be compared to lower resolution in vivo techniques including MRI. 
+	
+	% A glossary and list of acronyms may go here
+	% or may go in the back matter.
+	
+	\include{intro}
+	\include{methods}
+	\include{mrt}
+	\include{spleen}
+	\include{vascular}
+	\include{conclusions}
+
+	
+	% A glossary and list of acronyms may go here
+	% or may go in the front matter after the abstract.
+	% The bibliography will go here
+	\bibliography{thesis_bib}
+\end{document}

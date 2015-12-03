@@ -1,7 +1,7 @@
-\chapter{Spleen}
+\chapter{Characterisation of off-target drug effects}
 	
 	\section{Introduction}
-	
+	\subsection{Drug toxicity}
 	
 	
 	
@@ -10,6 +10,8 @@
 	
 	In the treatment of cancer, a number of agents designed to specifically target the tumour vasculature have been and continue to be developed. Given the hypervascular nature of the spleen, its essential role as a blood filter and the unique presence of acute endothelial contractility \cite{raganspontaneous1988}, the effects of these vascular targeting agents on splenic perfusion are also commonly assessed. Typically, this has been achieved pre-clinically through the use of histological markers of perfused vasculature or tissue uptake of radiolabelled blood flow tracers. \cite{cullistumour2006, horsmanvascular2003} Splenic perfusion has also been assessed as part of clinical trials of vascular targeting agents by incorporating functional imaging, where the spleen is included in the imaging field-of-view (FOV). \cite{andersonassessment2003, evelhochmagnetic2004} 
 	
+	
+	\subsection{The spleen}
 	The spleen has a complex 3-D structure made up of several distinct tissue types. Extensive interconnections between red pulp, white pulp and intermediary marginal zones are integral to the organ's function. \cite{groomthe1987} Traditional 2-D histology methods are not well suited for the examination of these 3-D features and they are often subject to sampling error due to the limitations of the physical sectioning techniques used. In addition, it is time-consuming to match information between adjacent slices, which may be distorted by the histological preparation process. A number of imaging approaches have been applied to the spleen, including microvascular-corrosion casting, scanning and transmission electron microscopy (SEM, TEM), and in vivo microscopy. \cite{groomthe1987}  These can have excellent resolution, but are often complex to perform and expensive.
 	
 	Optical computed tomography (CT) is an emerging imaging modality. Although initially introduced in 1996 to solve problems in the physical sciences \cite{goreradiation1996, winfreequantitative1996}, the first micro-imaging measurements on tissue were presented somewhat later, in 2002, using the Optical Projection Tomography (OPT) variant of the scanner geometry. \cite{sharpeoptical2002} This technique has subsequently been applied to the imaging of whole rodent organs and embryos in a variety of contexts. \cite{oldhamthree-dimensional2007, sharpeoptical2003}  The FOV size sits in the ``imaging gap'' between confocal microscopy and magnetic resonance imaging (MRI), ranging from a single cell to several centimetres, with resolution generally proportional to the FOV.
@@ -76,7 +78,7 @@
 	Homogeneity = \sum_{i,j,k=0}^{N_g-1} \frac{P_{i,j,k}}{1+(i-j)^2+(i-k)^2+(j-k)^2}
 	\end{equation}
 	
-	\subsection{Simulation}
+	\subsection*{Simulation}
 	In order to investigate some of the variables affecting the textural metrics above we performed 2-D GLCM analysis on simple simulations of a single spleen slices, incorporating three different tissue types present within the spleen. At the chosen imaging wavelength of 430nm, a strong source of optical absorption is haemoglobin in red blood cells (RBCs). The red pulp areas of the spleen transport and trap some RBCs making these areas highly absorbing on our optical CT scans. White pulp areas including lymph nodes do not usually contain RBCs and are therefore far less absorbing. The marginal zone between red and white pulp can trap RBCs to a lesser extent than the red pulp giving it intermediate absorption. 
 	
 	Simulated spleen images were generated incorporating these three tissue types. Each simulated image had four `features' made up of a simulated  lymph node and surrounding simulated marginal zone. The lymph nodes were simulated as circles, with constant grey level value of 0. The marginal zone was represented as a circular disc around the lymph node with uniform grey level value of 128 and the surrounding areas simulated the red pulp, with a grey level value of 256. Four simulated spleen images were generated with different lymph node and marginal zone radii, changing the total size of the features and the ratio of marginal zone area within each feature. 2-D contrast was calculated for each case.
@@ -94,6 +96,7 @@
 	
 	
 	\section{Results}
+	\subsection{Volume measurements}
 	High contrast data were successfully acquired for each spleen, and all animals were included in analysis. Figures~\ref{fig:3}a. and \ref{fig:3}b. display typical examples of the 3-D image datasets, in two complementary representations revealing the classical honeycomb appearance and complex inner structure. Full 3-D representations are available as supplementary video files. Figure~\ref{fig:3}c. shows a single 2-D reconstructed slice annotated to show some anatomical features. 
 	
 	The total volume of each spleen is plotted in Figure~\ref{fig:3}d. where there is a significant difference between the ZD6126-treated and vehicle groups. Total splenic volumes in the vehicle group ranged from $57.4\text{mm}^3 − 63.9\text{mm}^3$, while the ZD6126-treated group volumes ranged from $40.6\text{mm}^3 − 45.8\text{mm}^3$ demonstrating a ZD6126-induced median shrinkage of 28\% with significance of $\text{p}=0.05$.
@@ -113,7 +116,7 @@
 		\label{fig:4}
 	\end{figure}
 	
-	
+	\subsection{Textural analysis}
 	Our initial 2-D GLCM analysis, calculated as specified by (Haralick and Shanmugam, 1973), 
 	was found to be slice-dependent (Figure~\ref{fig:4}). However, the modified GLCM analysis incorporating three reference points (equation~\ref{eqn2}) reduced the influence of analysis position on results. Calculation of the 3-D contrast and homogeneity texture parameters defined in equations~\ref{eqn3} and \ref{eqn4} showed a clear separation between ZD6126-treated and vehicle groups as shown in Figures~\ref{fig:5}b and c. The position of peak contrast was shifted to smaller pixel displacements for the ZD6126-treated samples with a peak contrast occurring at a distance of $18.2 \pm 0.9$ pixels for ZD6126-treated samples and $20.2 \pm 0.9$ pixels for the vehicle cohort, representing a physical difference of $20.8\mu m$.
 	
